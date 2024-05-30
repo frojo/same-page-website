@@ -19,5 +19,7 @@ $fontWeightMedium: 500;
 @font-face {
   font-family: $fontBrand;
   src: url("font/NeueHaasDisplay/NeueHaasDisplayBlack.ttf") format("ttf-variations");
-//  font-weight: 200 900;
+  /*
+  font-weight: 200 900;
+    */
 }
