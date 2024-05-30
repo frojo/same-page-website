@@ -1,4 +1,26 @@
-body {
+@import "_includes/fonts.css";
+@import "_includes/reset.css";
 
+
+body {
+    font-family: $fontBrand;
+
+
+}
+
+
+.nav {
+    display: flex;
+
+    flex-wrap: nowrap;
+}
+
+.nav-logo {
+    /* trick have the logo elm push everything off to the right */
+    flex: 1;
+
+}
+
+.nav-links{
 
 }

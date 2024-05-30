@@ -1,0 +1,23 @@
+/* -- config -- */
+$fontBrand: "NeueHaasDisplay";
+$fontSans: $fontBrand, sans;
+$fontSize-base: 16px;
+
+/* -- sizes -- */
+$fontSize0: 1.1rem;
+$fontSize1: 1.3rem;
+$fontSize2: 2.5rem;
+$fontSize3: 3rem;
+$fontSize4: 4rem;
+$fontSize5: 5.4rem;
+
+/* -- weights -- */
+$fontWeightRegular: 400;
+$fontWeightMedium: 500;
+
+/* -- fonts -- */
+@font-face {
+  font-family: $fontBrand;
+  src: url("font/NeueHaasDisplay/NeueHaasDisplayBlack.ttf") format("ttf-variations");
+//  font-weight: 200 900;
+}
