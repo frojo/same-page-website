@@ -2,24 +2,22 @@
 @import "_includes/reset.css";
 
 
+/* Colors */
 $cream: #FFF1DA;
+$black: #000000;
 
 body {
-    font-family: $fontBrand;
-
     background-color: $cream;
-
-
-
-
-
 }
 
+
+/* ~~ Header ~~ */
 
 .nav {
     height: 183px;
     margin-right: 85px;
     margin-left: 85px;
+    margin-bottom: 48px;
 
     display: flex;
     flex-wrap: nowrap;
@@ -27,9 +25,8 @@ body {
 }
 
 .nav-logo-container {
-    /* trick have the logo elm push everything off to the right */
+    /* trick: have the logo elm push everything off to the right */
     flex: 1;
-
 }
 
 .nav-logo {
@@ -37,13 +34,73 @@ body {
     justify-self: flex-start;
 }
 
-.nav-links{
+.nav-links {
     justify-self: flex-end;
 
 }
 
-.selected_work {
+.nav-link {
+    font-family: $fontSans;
+    font-size: 36px;
+    color: $black;
+    text-decoration: none;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-left: 43px;
+}
+
+.nav-link:first-child {
+    margin-left: 0px;
+}
+
+.nav-link > a {
+
+    color: black;
+}
+
+/* ~~ Selected Work ~~ */
+
+
+.selected-work {
     margin-right: 85px;
     margin-left: 85px;
 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.selected-work-thumbnail {
+
+
+}
+
+.selected-work-thumbnail-image {
+    width: 100%;
+}
+
+.selected-work-thumbnail-title {
+    font-family: $fontSans;
+    font-size: 36px;
+
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* ~~ Footer~~ */
+
+.footer {
+    height: 183px;
+    margin-right: 85px;
+    margin-left: 85px;
+    margin-bottom: 48px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
 }

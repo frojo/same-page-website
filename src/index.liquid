@@ -6,10 +6,17 @@ eleventyImport:
   collections: ["portfolio"]
 ---
 
-<div class="selected_work">
+<div class="selected-work">
   {%- for item in collections.portfolio -%}
-    <div>
-      <a href="/work/{{item.fileSlug}}">{{ item.data.title }}</a>
+
+    <div class="selected-work-thumbnail">
+      <a href="/work/{{item.fileSlug}}">
+        <img class="selected-work-thumbnail-image"
+             src="/assets/img/arts-anon-thumbnail.png" />
+      </a>
+        <div class="selected-work-thumbnail-title">
+          {{ item.data.title }}
+        </div>
     </div>
   {%- endfor -%}
 </div>
