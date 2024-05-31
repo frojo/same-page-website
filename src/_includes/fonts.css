@@ -1,6 +1,9 @@
 /* -- config -- */
 $fontBrand: "NeueHaasDisplay";
 $fontSans: $fontBrand, sans;
+$fontTypewriter: "Besley";
+
+
 $fontSize-base: 16px;
 
 /* -- sizes -- */
@@ -19,5 +22,9 @@ $fontWeightMedium: 500;
 @font-face {
   font-family: $fontBrand;
   src: url("/assets/font/NeueHaasDisplay/NeueHaasDisplayMedium.ttf") format("truetype");
-  font-weight: 600;
+}
+
+@font-face {
+  font-family: $fontTypewriter;
+  src: url("/assets/font/Besley/Besley-VariableFont_wght.ttf") format("truetype-variations");
 }

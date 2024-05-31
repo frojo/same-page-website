@@ -104,3 +104,14 @@ body {
     flex-wrap: nowrap;
     align-items: flex-end;
 }
+
+.footer-email {
+    font-family: $fontTypewriter;
+    font-size: 36px;
+
+    flex: 1;
+}
+
+.footer-insta-icon {
+
+}
