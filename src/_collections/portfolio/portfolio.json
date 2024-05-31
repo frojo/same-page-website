@@ -1,0 +1,4 @@
+{
+    "tags": "portfolio",
+    "permalink": "work/{{ page.fileSlug }}.html"
+}
