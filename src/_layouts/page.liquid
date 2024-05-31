@@ -1,49 +1,26 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+---
+layout: base
+title: Same Page Productions
+---
+<!-- Header -->
+<nav id="nav" class="nav">
+  <div class="nav-logo-container">
+    <img class="nav-logo" src="/assets/img/logo.svg" />
+  </div>
+  <div class="nav-links">
+    <a class="nav-link" href="/selected_work">our work </a>
+    <a class="nav-link" href="/about">our people</a>
+  </div>
+</nav>
+
+{{ content }}
 
 
-    <!-- page -->
-    <title>{{title}}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/logo_white_no_text.svg">
-
-
-    <!-- TODO: preview -->
-
-    <!-- assets -->
-    <link rel="stylesheet" href="/site.css">
-    <script type="module" src="/site.js"></script>
-
-  </head>
-  <body>
-    <!-- Header -->
-    <nav id="nav" class="nav">
-      <div class="nav-logo-container">
-        <img class="nav-logo" src="/assets/img/logo.svg" />
-      </div>
-      <div class="nav-links">
-        <a class="nav-link" href="/selected_work">our work </a>
-        <a class="nav-link" href="/about">our people</a>
-      </div>
-    </nav>
-
-    {{ content }}
-    
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-email">info@samepagefilms.co</div>
-      <a href="https://www.instagram.com/samepagefilms.co/">
-        <img class="footer-insta-icon"
-             src="/assets/img/insta-icon.svg"/>
-      </a>
-    </footer>
-
-  </body>
-</html>
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-email">info@samepagefilms.co</div>
+  <a href="https://www.instagram.com/samepagefilms.co/">
+    <img class="footer-insta-icon"
+         src="/assets/img/insta-icon.svg"/>
+  </a>
+</footer>
