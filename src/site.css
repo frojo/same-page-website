@@ -117,19 +117,26 @@ body {
     padding-top: 10px;
 }
 
-/* ~~ Porfolio Item ~~ */
+/* ~~ portfolio Item ~~ */
 
-.porfolio-item {
+.portfolio-item {
     margin-right: 85px;
     margin-left: 85px;
 
 }
 
-.porfolio-details{
-    
+.portfolio-item-details {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
+
+.portfolio-item-details-left {
 
 }
 
-.porfolio-details{
+.portfolio-item-credits {
+
+    border: 2px solid black;
+
 
 }
