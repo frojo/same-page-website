@@ -62,8 +62,33 @@ body {
     color: black;
 }
 
-/* ~~ Selected Work ~~ */
 
+/* ~~ Footer~~ */
+
+.footer {
+    height: 183px;
+    margin-right: 85px;
+    margin-left: 85px;
+    margin-bottom: 48px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.footer-email {
+    font-family: $fontTypewriter;
+    font-size: 36px;
+
+    flex: 1;
+}
+
+.footer-insta-icon {
+
+}
+
+
+/* ~~ Selected Work ~~ */
 
 .selected-work {
     margin-right: 85px;
@@ -92,26 +117,19 @@ body {
     padding-top: 10px;
 }
 
-/* ~~ Footer~~ */
+/* ~~ Porfolio Item ~~ */
 
-.footer {
-    height: 183px;
+.porfolio-item {
     margin-right: 85px;
     margin-left: 85px;
-    margin-bottom: 48px;
 
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-end;
 }
 
-.footer-email {
-    font-family: $fontTypewriter;
-    font-size: 36px;
+.porfolio-details{
+    
 
-    flex: 1;
 }
 
-.footer-insta-icon {
+.porfolio-details{
 
 }
