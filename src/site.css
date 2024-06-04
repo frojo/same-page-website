@@ -137,6 +137,14 @@ body {
 .portfolio-item-credits {
 
     border: 2px solid black;
+}
 
+.portfolio-item-still-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+
+.portfolio-item-still {
+    width: 100%;
 }

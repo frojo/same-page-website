@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "start": "npm-run-all --parallel eleventy browsersync",
-    "eleventy": "eleventy --watch",
+    "start": "eleventy --serve",
+    "eleventy": "eleventy --serve",
     "debug": "set DEBUG=* & eleventy",
     "build": "cross-env NODE_ENV=production eleventy",
-    "browsersync": "browser-sync start --server _site --files _site --port 8080 --no-notify --no-open"
+    "browsersync": "browser-sync start --server _site --files _site --port 8080 --no-notify"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
