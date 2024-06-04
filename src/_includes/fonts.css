@@ -1,7 +1,14 @@
+
 /* -- config -- */
-$fontBrand: "NeueHaasDisplay";
-$fontSans: $fontBrand, sans;
-$fontTypewriter: "Besley";
+$fontSansDisplay: "NeueHaasDisplayMedium", sans;
+$fontSansBody: "NeueHaasDisplayRoman", sans;
+
+$fontSansCredit: "Franklin Gothic Regular", sans;
+
+$fontTypewriter: "Besley", mono;
+
+$fontSerif: "Clarendon", serif;
+$fontSerifModern: "BespokeSerif-Medium", serif;
 
 
 $fontSize-base: 16px;
@@ -20,11 +27,172 @@ $fontWeightMedium: 500;
 
 /* -- fonts -- */
 @font-face {
-  font-family: $fontBrand;
+  font-family: "NeueHaasDisplayMedium";
   src: url("/assets/font/NeueHaasDisplay/NeueHaasDisplayMedium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: $fontTypewriter;
+  font-family: "NeueHaasDisplayRoman";
+  src: url("/assets/font/NeueHaasDisplay/NeueHaasDisplayRoman.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Besley";
   src: url("/assets/font/Besley/Besley-VariableFont_wght.ttf") format("truetype-variations");
+}
+
+@font-face {
+  font-family: 'Franklin Gothic Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/font/FranklinGothic/FranklinGothic.woff') format('woff');
+}
+
+
+/**
+* @license
+*
+* Font Family: Bespoke Serif
+* Designed by: Jeremie Hornus, Theo Guillard, Morgane Pambrun, Alisa Nowak, Joachim Vu
+* URL: https://www.fontshare.c/assets/font/BespokeSerif/bespoke-serif
+* © 2024 Indian Type Foundry
+*
+* Bespoke Serif Light 
+* Bespoke Serif LightItalic 
+* Bespoke Serif Regular 
+* Bespoke Serif Italic 
+* Bespoke Serif Medium 
+* Bespoke Serif MediumItalic 
+* Bespoke Serif Bold 
+* Bespoke Serif BoldItalic 
+* Bespoke Serif Extrabold 
+* Bespoke Serif ExtraboldItalic 
+* Bespoke Serif Variable (Variable font)
+* Bespoke Serif VariableItalic (Variable font)
+
+*
+*/
+@font-face {
+  font-family: 'BespokeSerif-Light';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-Light.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Light.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BespokeSerif-LightItalic';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-LightItalic.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-LightItalic.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'BespokeSerif-Regular';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-Regular.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Regular.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BespokeSerif-Italic';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-Italic.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Italic.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'BespokeSerif-Medium';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-Medium.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Medium.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BespokeSerif-MediumItalic';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-MediumItalic.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-MediumItalic.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'BespokeSerif-Bold';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-Bold.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Bold.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BespokeSerif-BoldItalic';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-BoldItalic.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-BoldItalic.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'BespokeSerif-Extrabold';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-Extrabold.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Extrabold.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BespokeSerif-ExtraboldItalic';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-ExtraboldItalic.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-ExtraboldItalic.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-ExtraboldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0wght 800.0;
+*
+* available axes:
+'wght' (range from 300.0 to 800.0'wght' (range from 300.0 to 800.0
+*/
+@font-face {
+  font-family: 'BespokeSerif-Variable';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-Variable.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Variable.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-Variable.ttf') format('truetype');
+  font-weight: 300 800;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0wght 800.0;
+*
+* available axes:
+'wght' (range from 300.0 to 800.0'wght' (range from 300.0 to 800.0
+*/
+@font-face {
+  font-family: 'BespokeSerif-VariableItalic';
+  src: url('/assets/font/BespokeSerif/BespokeSerif-VariableItalic.woff2') format('woff2'),
+       url('/assets/font/BespokeSerif/BespokeSerif-VariableItalic.woff') format('woff'),
+       url('/assets/font/BespokeSerif/BespokeSerif-VariableItalic.ttf') format('truetype');
+  font-weight: 300 800;
+  font-display: swap;
+  font-style: italic;
 }
