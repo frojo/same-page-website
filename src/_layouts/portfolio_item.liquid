@@ -6,59 +6,30 @@ layout: page
 <div class="portfolio-item">
 
     <div class="portfolio-item-video">
-        <div style="padding:56.25% 0 0 0;position:relative;">
-            <iframe src="https://player.vimeo.com/video/945829371?h=abe1d38200&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-                    frameborder="0" 
-                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
-                    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-                    title="Arts Anonymous | Fashion Campaign">
-            </iframe>
-        </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
+          {{ video_embed.code }}
     </div>
 
     <div class="portfolio-item-details">
         <div class="portfolio-item-details-left">
-            <div class="portfolio-item-title">title</div>
-            <div class="portfolio-item-description">Nullam ut commodo enim. Aliquam erat volutpat. Class aptent taciti  sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  Pellentesque euismod imperdiet nisl, nec malesuada purus ornare sit  amet. Vivamus ornare ac ligula ut posuere. </div>
+            <div class="portfolio-item-title">{{ title }}</div>
+            <div class="portfolio-item-description">{{ description }}</div>
         </div>
         <div class="portfolio-item-credits">
+          {%- for credit in credits -%}
             <div class="portfolio-item-credits-entry">
-                 <span class="portfolio-item-credits-name">same page</span>
-                 <span class="portfolio-item-credits-role">Production</span>
+                 <span class="portfolio-item-credits-name">{{credit.credit.name}}</span>
+                 <span class="portfolio-item-credits-role">{{credit.credit.role}}</span>
             </div>
-
-            <div class="portfolio-item-credits-entry">
-                 <span class="portfolio-item-credits-name">same page</span>
-                 <span class="portfolio-item-credits-role">Production</span>
-            </div>
-
-            <div class="portfolio-item-credits-entry">
-                 <span class="portfolio-item-credits-name">same page</span>
-                 <span class="portfolio-item-credits-role">Production</span>
-            </div>
+          {%- endfor -%}
         </div>
     </div>
 
     <div class="portfolio-item-still-grid">
-        <img class="portfolio-item-still"
-             src="/assets/img/arts-anon-thumbnail.png"
-        />
-        <img class="portfolio-item-still"
-             src="/assets/img/arts-anon-thumbnail.png"
-        />
-        <img class="portfolio-item-still"
-             src="/assets/img/arts-anon-thumbnail.png"
-        />
-        <img class="portfolio-item-still"
-             src="/assets/img/arts-anon-thumbnail.png"
-        />
-        <img class="portfolio-item-still"
-             src="/assets/img/arts-anon-thumbnail.png"
-        />
-        <img class="portfolio-item-still"
-             src="/assets/img/arts-anon-thumbnail.png"
-        />
+          {%- for still in stills -%}
+               <img class="portfolio-item-still"
+                    src="{{ still }}"
+               />
+          {%- endfor -%}
 
     </div>
 

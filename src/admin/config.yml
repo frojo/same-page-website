@@ -5,8 +5,8 @@ backend:
   ### enable below lines for github integration ###
   # name: github
   # repo: frojo/same-page-website
-media_folder: "src/static/img"
-public_folder: "/static/img"
+media_folder: "src/assets/img"
+public_folder: "/assets/img"
 logo_url: "/static/img/same_page_logo_colors.svg"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
@@ -20,7 +20,22 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Video Link", name: "video_embed_link", widget: "string" }
+      - { label: "Thumbnail Image", name: "thumbnail", widget: "image" }
+      - { label: "Video Embed", name: "video_embed", widget: "code" }
+      - label: "Credits"
+        name: "credits"
+        widget: "list"
+        fields: 
+          - label: "Credit"
+            name: "credit"
+            widget: "object"
+            fields:
+              - { label: 'Name', name: 'name', widget: 'string' }
+              - { label: 'Role', name: 'role', widget: 'string' }
+      - label: "Stills"
+        name: "stills"
+        widget: "list"
+        field: { label: "Still", name: "still", widget: "image" }
   - label: "Blog"
     name: "blog"
     folder: "src/posts"

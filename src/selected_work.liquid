@@ -12,7 +12,7 @@ eleventyImport:
     <div class="selected-work-thumbnail">
       <a href="/work/{{work_item.fileSlug}}">
         <img class="selected-work-thumbnail-image"
-             src="/assets/img/arts-anon-thumbnail.png" />
+             src="{{ work_item.data.thumbnail }}" />
       </a>
         <div class="selected-work-thumbnail-title">
           {{ work_item.data.title }}
