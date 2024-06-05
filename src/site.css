@@ -212,7 +212,7 @@ body {
 .about-front-page {
 
     display: grid;
-    grid-template-columns: 1fr 40%;
+    grid-template-columns: 1fr 50%;
 
     height: 70vh;
 
@@ -239,7 +239,79 @@ body {
     font-size: 24px;
 
 }
-.about-front-page-body-image {
-    width: 40%;
+.about-front-page-image {
+    height: 100%;
+}
 
+.about-pile {
+}
+.about-pile-image {
+    height: 200px;
+}
+
+.about-services {
+}
+
+.about-services-title {
+    font-family: $fontSansDisplay;
+    font-size: 64px;
+
+    margin-right: 85px;
+    margin-left: 85px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-services-body {
+    background-color: $cream;
+    color: $black;
+    
+    padding-right: 85px;
+    padding-left: 85px;
+
+    padding-bottom: 53px;
+    padding-top: 53px;
+}
+
+.about-service {
+    margin-bottom: 39px;
+}
+
+.about-service-title {
+    font-family: $fontSansDisplay;
+    font-size: 24px;
+    
+    margin-bottom: 10px;
+}
+
+.about-service-description {
+    font-family: $fontTypewriter;
+    font-size: 16px;
+}
+
+.about-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.about-call-text {
+    font-family: $fontSerifModern;
+    font-size: 32px;
+
+    margin-right: 36px;
+}
+
+.about-call-button {
+    font-family: $fontTypewriter;
+    font-size: 36px;
+
+    
+    
 }
