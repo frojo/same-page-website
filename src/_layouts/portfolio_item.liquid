@@ -1,5 +1,5 @@
 ---
-title: TODO
+title: {{ title }}
 layout: page
 ---
 
@@ -12,7 +12,7 @@ layout: page
     <div class="portfolio-item-details">
         <div class="portfolio-item-details-left">
             <div class="portfolio-item-title">{{ title }}</div>
-            <div class="portfolio-item-description">{{ description }}</div>
+            <div class="portfolio-item-description">{{ description | newline_to_br }}</div>
         </div>
         <div class="portfolio-item-credits">
           {%- for credit in credits -%}

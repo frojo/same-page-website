@@ -1,8 +1,8 @@
 ---
-title: Another Project
+title: Arts Anonymous
 description: just some project bro. this is like my favorite project. lorem
   ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum.
-thumbnail: /assets/img/arts-anon-thumbnail.png
+thumbnail: /assets/img/thumb-1-.jpg
 video_embed:
   code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
     src="https://player.vimeo.com/video/945829371?h=abe1d38200&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
