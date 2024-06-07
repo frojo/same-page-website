@@ -209,7 +209,7 @@ body {
     left: 0;
     right: 0;
 
-    font-family: $fontSansDisplay;
+    font-family: $fontSerif;
     font-size: 32px;
     color: $cream;
     background: rgba(56, 90, 78, 0.5);
@@ -292,7 +292,7 @@ body {
 }
 
 .portfolio-item-title {
-    font-family: $fontSansDisplay;
+    font-family: $fontSerif;
     font-size: 24px;
 
     margin-bottom: 24px;

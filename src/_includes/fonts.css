@@ -48,6 +48,13 @@ $fontWeightMedium: 500;
   src: url('/assets/font/FranklinGothic/FranklinGothic.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Clarendon';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/font/Clarendon Regular.otf') format('opentype');
+}
+
 
 /**
 * @license
