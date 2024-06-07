@@ -18,7 +18,7 @@ collections:
     folder: "src/_collections/portfolio"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "my_title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Thumbnail Image", name: "thumbnail", widget: "image" }
       - { label: "Video Embed", name: "video_embed", widget: "code" }

@@ -1,5 +1,5 @@
 ---
-title: We Are Cap USA
+my_title: We Are Cap USA
 description: >-
   Cap USA is a cornerstone of Harlem style, culture, resistance, belonging.
 

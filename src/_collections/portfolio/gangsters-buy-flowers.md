@@ -1,5 +1,5 @@
 ---
-title: Gangsters Buy Flowers
+my_title: Gangsters Buy Flowers
 description: "something "
 thumbnail: /assets/img/thumb-2-.jpg
 video_embed:

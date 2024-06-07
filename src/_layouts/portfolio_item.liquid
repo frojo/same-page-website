@@ -1,19 +1,16 @@
 ---
-title: {{ title }}
+title: {{ my_title }}
 layout: page
 ---
 
 <div class="portfolio-item">
 
+  
+  <div class="portfolio-item-video-details">
     <div class="portfolio-item-video">
           {{ video_embed.code }}
     </div>
-
     <div class="portfolio-item-details">
-        <div class="portfolio-item-details-left">
-            <div class="portfolio-item-title">{{ title }}</div>
-            <div class="portfolio-item-description">{{ description | newline_to_br }}</div>
-        </div>
         <div class="portfolio-item-credits">
           {%- for credit in credits -%}
             <div class="portfolio-item-credits-entry">
@@ -22,9 +19,18 @@ layout: page
             </div>
           {%- endfor -%}
         </div>
+        <div class="portfolio-item-details-text">
+            <div class="portfolio-item-title">{{ my_title }}</div>
+            <div class="portfolio-item-description">{{ description | newline_to_br }}</div>
+        </div>
     </div>
+  </div>
+
 
     <div class="portfolio-item-still-grid">
+               <img class="portfolio-item-still"
+                    src="{{ stills[0] }}"
+               />
           {%- for still in stills -%}
                <img class="portfolio-item-still"
                     src="{{ still }}"

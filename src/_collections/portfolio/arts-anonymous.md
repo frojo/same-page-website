@@ -1,8 +1,8 @@
 ---
-title: Focus Camera
 description: This is a project
 video_embed_link: testing...wet
-thumbnail: /assets/img/thumb-3-.jpg
+my_title: Focus Camera
+thumbnail: /assets/img/thumb-6-.jpg
 video_embed:
   code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
     src="https://player.vimeo.com/video/945826603?h=01680e5412&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"

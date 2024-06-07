@@ -1,5 +1,5 @@
 ---
-title: "Smile: We Livin'"
+my_title: "Smile: We Livin'"
 description: "Smile: We Livin'"
 thumbnail: /assets/img/thumb-4-.jpg
 video_embed:

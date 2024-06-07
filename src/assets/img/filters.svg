@@ -1,0 +1,6 @@
+<svg>
+  <filter id="blur">
+   <feMorphology operator="dilate" radius="5">
+   </feMorphology>    
+  </filter>
+</svg>
