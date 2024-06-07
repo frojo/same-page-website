@@ -32,9 +32,11 @@ body {
 .landing-logo {
     height: 100px;
     position: absolute;
+
+    translate: -50% -50%;
 }
 
-.landing-logo:hover {
+/* .landing-logo:hover {
     display: none;
 }
 
@@ -66,7 +68,7 @@ body {
 
     margin: 0px;
     line-height: 35px;
-}
+} */
 
 
 /* ~~ Header ~~ */
