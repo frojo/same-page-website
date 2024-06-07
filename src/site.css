@@ -211,6 +211,7 @@ body {
 
     font-family: $fontSansDisplay;
     font-size: 32px;
+    text-transform: lowercase;
     color: $cream;
     background: rgba(56, 90, 78, 0.5);
 
@@ -254,6 +255,7 @@ body {
 .selected-work-thumbnail-title {
     font-family: $fontSansBody;
     font-size: 36px;
+    text-transform: lowercase;
 
     text-align: center;
     padding-bottom: 10px;
@@ -294,6 +296,7 @@ body {
 .portfolio-item-title {
     font-family: $fontSansDisplay;
     font-size: 24px;
+    text-transform: lowercase;
 
     margin-bottom: 24px;
 
