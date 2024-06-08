@@ -16,20 +16,17 @@ module.exports = function (config) {
   // Merge data instead of overriding
   config.setDataDeepMerge(true);
 
-  // human readable date
-  config.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "dd LLL yyyy"
-    );
-  });
+  // -- filters/collections
+  /// grab an element from a collection by name
+  function titled(collection, title) {
+    return collection.find((el) => el.data.my_title === title)
+  }
 
-  // Syntax Highlighting for Code blocks
-  config.addPlugin(syntaxHighlight);
+  config.addFilter("titled", titled)
 
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON
   config.addDataExtension("yaml", (contents) => yaml.load(contents));
-
 
 
   // Copy Static Files to /_site

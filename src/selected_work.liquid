@@ -8,7 +8,9 @@ eleventyImport:
 
 
 <div class="selected-work">
-  {%- for work_item in collections.portfolio -%}
+  {%- for item in portfolio_order.order -%}
+
+    {% assign work_item = collections.portfolio | titled: item.title %}
 
     <a class="selected-work-thumbnail" href="/work/{{work_item.fileSlug}}">
         <div class="selected-work-thumbnail-overlay-letterbox">
@@ -18,11 +20,7 @@ eleventyImport:
         </div>
         <img class="selected-work-thumbnail-image"
               src="{{ work_item.data.thumbnail }}" />
-      <!--
-        <div class="selected-work-thumbnail-title">
-          {{ work_item.data.my_title }}
-        </div>
-      -->
-    </a>
+
+
   {%- endfor -%}
 </div>

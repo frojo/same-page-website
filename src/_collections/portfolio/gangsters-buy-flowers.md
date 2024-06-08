@@ -1,6 +1,6 @@
 ---
 my_title: Gangsters Buy Flowers
-description: "something "
+description: a better descriptions
 thumbnail: /assets/img/thumb-2-.jpg
 video_embed:
   code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe

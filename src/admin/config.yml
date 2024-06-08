@@ -21,7 +21,25 @@ preview: false
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Portfolio"
+  - label: "Portfolio Order"
+    name: "portfolio_order"
+    files: 
+      - label: "Portfolio Item Order"
+        name: "portfolio_order"
+        widget: list
+        file: "src/_data/portfolio_order.yaml" 
+        fields:
+        - label: "Portfolio Item Order"
+          name: "order"
+          widget: "list"
+          fields: 
+          - label: Portfolio Item
+            name: title 
+            widget: "relation"
+            collection: "portfolio"
+            value_field: "my_title"
+            search_fields: ["my_title"]
+  - label: "Portfolio Items"
     name: "portfolio"
     folder: "src/_collections/portfolio"
     create: true

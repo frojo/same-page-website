@@ -21,11 +21,10 @@ path: about
 
   <!-- Pile 1-->
   <div class="about-pile">
-        {{ about | log }}
-    <img class="about-pile-image" src="/assets/img/alex_temi_silhouette.jpg" />
-    <img class="about-pile-image" src="/assets/img/alex_temi_silhouette.jpg" />
-    <img class="about-pile-image" src="/assets/img/alex_temi_silhouette.jpg" />
-    <img class="about-pile-image" src="/assets/img/alex_temi_silhouette.jpg" />
+    {%- for image in about.bts.images -%}
+        {{  }}
+      <img class="about-pile-image" src="{{ image }}" />
+    {%- endfor -%}
   </div>
 
   <!-- Services -->
