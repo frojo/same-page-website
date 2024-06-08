@@ -10,11 +10,10 @@ path: about
   <div class="about-front-page">
     <div class="about-front-page-text">
       <div class="about-front-page-title">
-        our story
+        {{ about.front_page.title }}
       </div>
       <div class="about-front-page-body">
-        Aliquam id efficitur augue, quis fringilla augue. Donec a sem et nulla  aliquet rhoncus. Pellentesque dui nisi, tempor in purus eget, viverra  sagittis mauris. Integer nec dolor augue. 
-        Nullam urna turpis, varius  finibus enim sit amet, malesuada malesuada nulla. Suspendisse congue,  justo sit amet mattis maximus, mauris mauris tempor ipsum, sed cursus  sapien augue eget ligula. Etiam vel condimentum sapien, vitae mattis. 
+        {{ about.front_page.body }}
       </div>
     </div>
     <img class="about-front-page-image" src="/assets/img/alex_temi_silhouette.jpg" />
@@ -34,23 +33,17 @@ path: about
       our services
     </div>
     <div class="about-services-body">
-      <div class="about-service">
-        <div class="about-service-title">
-          Production
+      {%- for service in about.services.services -%}
+        <div class="about-service">
+          <div class="about-service-title">
+            {{ service.title }}
+          </div>
+          <div class="about-service-description">
+            {{ service.desc }}
+          </div>
         </div>
-        <div class="about-service-description">
-          Our production justo sit amet mattis maximus, mauris mauris tempor ipsum, sed cursus  sapien augue eget ligula. Etiam vel condimentum sapien, vitae mattis 
-        </div>
-      </div>
+      {%- endfor -%}
 
-      <div class="about-service">
-        <div class="about-service-title">
-          Production
-        </div>
-        <div class="about-service-description">
-          Our production justo sit amet mattis maximus, mauris mauris tempor ipsum, sed cursus  sapien augue eget ligula. Etiam vel condimentum sapien, vitae mattis 
-        </div>
-      </div>
     </div>
   </div>
 

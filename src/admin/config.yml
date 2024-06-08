@@ -9,6 +9,8 @@ media_folder: "src/assets/img"
 public_folder: "/assets/img"
 logo_url: "/static/img/same_page_logo_colors.svg"
 
+preview: false
+
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
 # publish_mode: editorial_workflow
@@ -36,3 +38,26 @@ collections:
         name: "stills"
         widget: "list"
         field: { label: "Still", name: "still", widget: "image" }
+  - label: "About Page"
+    name: "about"
+    files:
+      - label: "Front Page"
+        name: "front-page"
+        file: "src/_data/about/front_page.yaml"
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: text
+      - label: "Services"
+        name: "services"
+        file: "src/_data/about/services.yaml"
+        fields:
+          - label: Services 
+            name: services
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: desc, widget: string }
