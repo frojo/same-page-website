@@ -1,7 +1,7 @@
 ---
 my_title: "Smile: We Livin'"
 description: "Smile: We Livin'"
-thumbnail: /assets/img/thumb-4-.jpg
+thumbnail: /assets/img/thumbnail_2.3.2.png
 video_embed:
   code: "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe
     src=\"https://player.vimeo.com/video/941230276?h=e434058094&amp;badge=0&amp\
