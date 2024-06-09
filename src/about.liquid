@@ -21,9 +21,10 @@ path: about
 
   <!-- Pile 1-->
   <div class="about-pile">
-    {%- for image in about.bts.images -%}
-        {{  }}
-      <img class="about-pile-image" src="{{ image }}" />
+    {%- for image in about.bts1.images -%}
+      <div class="about-pile-image-container">
+        <img class="about-pile-image" src="{{ image }}" />
+      </div>
     {%- endfor -%}
   </div>
 
