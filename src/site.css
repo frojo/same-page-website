@@ -162,14 +162,15 @@ body {
 .footer {
     padding-right: $pageMargin;
     padding-left: $pageMargin;
-    padding-top: 15px;
-    padding-bottom: 25px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 
     background-color: $green;
 
     display: flex;
     flex-wrap: nowrap;
-    align-items: end;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer-email {
@@ -515,6 +516,15 @@ body {
         flex-direction: column;
         align-items: last baseline;
         gap: .1em;
+
+    }
+
+    .footer-email {
+        font-size: 16px;
+    }
+
+    .footer-insta-icon {
+        height: 24px;
 
     }
 
