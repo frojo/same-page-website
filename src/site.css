@@ -403,6 +403,9 @@ body {
 .about-pile-image-container {
     height: 15rem;
     flex-grow: 1;
+
+    --rotation: 0deg;
+    transform: rotate(var(--rotation)) scale(1.1);
 }
 
 .about-pile-image-container:last-child {

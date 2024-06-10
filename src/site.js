@@ -5,6 +5,7 @@ let initTargetPos;
 let initMousePos;
 
 
+
 let frontZ = 1;
 
 function initDraggables() {
@@ -63,7 +64,7 @@ function initDraggables() {
       const elm = draggingElm;
   
       // apply it to the initial position
-      draggingElm.style.left = `${p0.x + dx}px`
+      draggingelm.style.left = `${p0.x + dx}px`
       draggingElm.style.top = `${p0.y + dy}px`
   
     }
@@ -131,4 +132,24 @@ function initDraggables() {
 
 }
 
- initDraggables();
+//initDraggables();
+
+
+function randomizeRotation(elm) {
+  let rot = Math.random() * 10 - 5;
+  elm.style.setProperty('--rotation', rot + 'deg');
+ }
+
+
+
+function rotatePhotos() {
+
+  const elms = document.getElementsByClassName('about-pile-image-container');
+
+  for (const elm of elms) {
+    console.log('rotating ' + elm);
+    randomizeRotation(elm);
+  }
+}
+
+rotatePhotos();
