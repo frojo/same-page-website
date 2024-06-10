@@ -6,6 +6,8 @@ path: about
 
 <div class="about">
 
+
+
   <!-- Front Page -->
   <div class="about-front-page">
     <div class="about-front-page-text">
@@ -21,6 +23,15 @@ path: about
 
   <!-- Pile 1-->
   <div class="about-pile">
+{% comment %} 
+    <div class="draggable">
+      <img class="draggable-image" src="/assets/img/memorabilia/mingus.jpeg" />
+    </div>
+
+    <div class="draggable">
+      <img class="draggable-image" src="/assets/img/memorabilia/dbz-buu.png" />
+    </div> {% endcomment %}
+
     {%- for image in about.bts1.images -%}
       <div class="about-pile-image-container">
         <img class="about-pile-image" src="{{ image }}" />
@@ -49,6 +60,19 @@ path: about
   </div>
 
   <!-- Pile 2-->
+  <div class="about-pile">
+  {% comment %} <div class="draggable">
+    <img class="draggable-image" src="/assets/img/mingus.jpeg" />
+  </div> {% endcomment %}
+    {%- for image in about.bts2.images -%}
+      <div class="about-pile-image-container">
+        <img class="about-pile-image" src="{{ image }}" />
+      </div>
+    {%- endfor -%}
+  </div>
+
+
+  <!-- Call to Action -->
   <div class="about-call">
     <span class="about-call-text">
       interested in collaborating?

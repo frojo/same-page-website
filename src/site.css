@@ -401,8 +401,12 @@ body {
 }
 
 .about-pile-image-container {
-    height: 40vh;
+    height: 15rem;
     flex-grow: 1;
+}
+
+.about-pile-image-container:last-child {
+  flex-grow: 10;
 }
 
 .about-pile-image {
@@ -449,7 +453,7 @@ body {
 }
 
 .about-service-description {
-    font-family: $fontTypewriter;
+    font-family: $fontSansBody;
     font-size: 16px;
 }
 
@@ -475,6 +479,19 @@ body {
     font-family: $fontTypewriter;
     font-size: 36px;
     
+}
+
+.draggable {
+    position: absolute;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+
+    transform: rotate(-20deg)
+}
+
+.draggable-image {
+    max-height: 30vh;
+
 }
 
 @media screen and (max-width: 900px) {

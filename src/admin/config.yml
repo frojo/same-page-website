@@ -85,7 +85,7 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Description, name: desc, widget: string }
-      - label: "BTS Images Pile 2"
+      - label: "BTS Images Collection 1"
         name: "bts1"
         file: "src/_data/about/bts1.yaml"
         fields:
@@ -95,7 +95,7 @@ collections:
             media_library:
               config:
                 multiple: true
-      - label: "BTS Images Pile 1"
+      - label: "BTS Images Collection 2"
         name: "bts2"
         file: "src/_data/about/bts2.yaml"
         fields:
