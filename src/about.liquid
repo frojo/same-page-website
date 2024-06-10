@@ -37,6 +37,14 @@ path: about
         <img class="about-pile-image" src="{{ image }}" />
       </div>
     {%- endfor -%}
+
+      <div class="about-pile-image-container about-pile-image-foreground">
+        <img class="about-pile-image" src="https://res.cloudinary.com/dyewnjw4e/image/upload/v1718031454/285289C8-90B0-430A-AA8D-A400E5B30182_pofvts.jpg" />
+      </div>
+
+      <div class="about-pile-image-container about-pile-image-foreground">
+        <img class="about-pile-image" src="https://res.cloudinary.com/dyewnjw4e/image/upload/v1718031454/285289C8-90B0-430A-AA8D-A400E5B30182_pofvts.jpg" />
+      </div>
   </div>
 
   <!-- Services -->
@@ -64,6 +72,8 @@ path: about
   {% comment %} <div class="draggable">
     <img class="draggable-image" src="/assets/img/mingus.jpeg" />
   </div> {% endcomment %}
+
+
     {%- for image in about.bts2.images -%}
       <div class="about-pile-image-container">
         <img class="about-pile-image" src="{{ image }}" />

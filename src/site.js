@@ -134,22 +134,45 @@ function initDraggables() {
 
 //initDraggables();
 
+let rotationMagnitude = 10;
+let scaleMagnitude = .2;
+let translateXMag = 30;
+let translateYMag = 10;
 
 function randomizeRotation(elm) {
-  let rot = Math.random() * 10 - 5;
+  let rot = Math.random() * rotationMagnitude - (rotationMagnitude / 2);
   elm.style.setProperty('--rotation', rot + 'deg');
  }
 
 
+function randomizeTranslation() {
+  return Math.random() * translateXMag - (translateXMag / 2);
+}
 
-function rotatePhotos() {
+
+function transformPhotos() {
 
   const elms = document.getElementsByClassName('about-pile-image-container');
 
   for (const elm of elms) {
     console.log('rotating ' + elm);
     randomizeRotation(elm);
+
+
+    // scale
+    let scale = Math.random() * scaleMagnitude + 1;
+    elm.style.setProperty('--scale', `${scale}`);
+
+    let translateX = randomizeTranslation();
+
+    // elm.style.setProperty('--translateX', `${translateX}%`);
+
+
+    let translateY = randomizeTranslation();
+    console.log(translateY);
+    elm.style.setProperty('--translateY', `${translateY}%`);
+
   }
 }
 
-rotatePhotos();
+transformPhotos();

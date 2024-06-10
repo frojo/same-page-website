@@ -397,7 +397,15 @@ body {
 .about-pile {
     display: flex;
     flex-wrap: wrap;
-    justify-contents: stretch;
+
+}
+
+.item {
+}
+
+
+.about-pile {
+    position: relative;
 }
 
 .about-pile-image-container {
@@ -405,12 +413,28 @@ body {
     flex-grow: 1;
 
     --rotation: 0deg;
-    transform: rotate(var(--rotation)) scale(1.1);
+    --scale: 1;
+    --translateX: 0px;
+    --translateY: 0px;
+    transform: rotate(var(--rotation)) 
+               scale(var(--scale)) 
+               translate(var(--translateX), var(--translateY));
 }
 
-.about-pile-image-container:last-child {
-  flex-grow: 10;
+.about-pile-image-foreground {
+    position: absolute;
+
+    top: var(--top);
+    left: var(--left);
+
+    --top: 50%;
+    --left: 50%;
+
+    translate: -50% -50%;
+
+
 }
+
 
 .about-pile-image {
     max-height: 100%;
