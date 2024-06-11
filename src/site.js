@@ -150,10 +150,7 @@ function randomizeTranslation() {
 }
 
 
-function transformPhotos() {
-
-  const elms = document.getElementsByClassName('about-pile-image-container');
-
+function jitterElms(elms) {
   for (const elm of elms) {
     console.log('rotating ' + elm);
     randomizeRotation(elm);
@@ -175,4 +172,29 @@ function transformPhotos() {
   }
 }
 
-transformPhotos();
+const allPhotos = document.getElementsByClassName('about-pile-image-container');
+const fgPhotos = document.getElementsByClassName('about-pile-image-foreground');
+
+jitterElms(fgPhotos);
+
+
+function positionForegroundPhotos() {
+  const elms = document.getElementsByClassName('about-pile-image-foreground');
+  const num = elms.length;
+  for (let i = 0; i < num; i++) {
+    const elm = elms[i];
+
+    let top = Math.random() * 60 + 20;
+    elm.style.setProperty('--top', `${top}%`);
+
+    let interval = (100.0 / num);
+    let offset = interval*i;
+    let padding = interval / 6;
+    let range = interval - padding*2;
+    let left = padding + offset + Math.random()*range;
+    console.log(`left: ${left}`);
+    elm.style.setProperty('--left', `${left}%`);
+  }
+}
+
+positionForegroundPhotos();

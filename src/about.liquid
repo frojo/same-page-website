@@ -31,20 +31,20 @@ path: about
     <div class="draggable">
       <img class="draggable-image" src="/assets/img/memorabilia/dbz-buu.png" />
     </div> {% endcomment %}
+    {% assign num_foreground = 3 %}
 
-    {%- for image in about.bts1.images -%}
+    {%- for image in about.bts1.images offset: num_foreground %}
       <div class="about-pile-image-container">
         <img class="about-pile-image" src="{{ image }}" />
       </div>
     {%- endfor -%}
 
+    {%- for image in about.bts1.images limit: num_foreground %}
       <div class="about-pile-image-container about-pile-image-foreground">
-        <img class="about-pile-image" src="https://res.cloudinary.com/dyewnjw4e/image/upload/v1718031454/285289C8-90B0-430A-AA8D-A400E5B30182_pofvts.jpg" />
+        <img class="about-pile-image" src="{{ image }}" />
       </div>
+    {%- endfor -%}
 
-      <div class="about-pile-image-container about-pile-image-foreground">
-        <img class="about-pile-image" src="https://res.cloudinary.com/dyewnjw4e/image/upload/v1718031454/285289C8-90B0-430A-AA8D-A400E5B30182_pofvts.jpg" />
-      </div>
   </div>
 
   <!-- Services -->
