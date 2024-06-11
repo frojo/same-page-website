@@ -23,27 +23,31 @@ path: about
 
   <!-- Pile 1-->
   <div class="about-pile">
-{% comment %} 
-    <div class="draggable">
+    {% assign num_foreground = 3 %}
+
+    <!-- Background photos -->
+    {%- for image in about.bts1.images offset: num_foreground %}
+      <div class="about-pile-transformable about-pile-image-container">
+        <img class="about-pile-image" src="{{ image }}" />
+      </div>
+    {%- endfor -%}
+
+    <!-- Foreground photos -->
+    {%- for image in about.bts1.images limit: num_foreground %}
+      <div class="about-pile-transformable about-pile-image-container about-pile-image-foreground">
+        <img class="about-pile-image" src="{{ image }}" />
+      </div>
+    {%- endfor -%}
+
+
+    <!-- Nicknacks-->
+    <div class="about-pile-transformable draggable nicknack about-pile-image-foreground">
       <img class="draggable-image" src="/assets/img/memorabilia/mingus.jpeg" />
     </div>
 
-    <div class="draggable">
+    <div class="about-pile-transformable draggable nicknack about-pile-image-foreground">
       <img class="draggable-image" src="/assets/img/memorabilia/dbz-buu.png" />
-    </div> {% endcomment %}
-    {% assign num_foreground = 3 %}
-
-    {%- for image in about.bts1.images offset: num_foreground %}
-      <div class="about-pile-image-container">
-        <img class="about-pile-image" src="{{ image }}" />
-      </div>
-    {%- endfor -%}
-
-    {%- for image in about.bts1.images limit: num_foreground %}
-      <div class="about-pile-image-container about-pile-image-foreground">
-        <img class="about-pile-image" src="{{ image }}" />
-      </div>
-    {%- endfor -%}
+    </div>
 
   </div>
 
@@ -68,18 +72,14 @@ path: about
   </div>
 
   <!-- Pile 2-->
-  <div class="about-pile">
-  {% comment %} <div class="draggable">
-    <img class="draggable-image" src="/assets/img/mingus.jpeg" />
-  </div> {% endcomment %}
-
+  {% comment %} <div class="about-pile">
 
     {%- for image in about.bts2.images -%}
       <div class="about-pile-image-container">
         <img class="about-pile-image" src="{{ image }}" />
       </div>
     {%- endfor -%}
-  </div>
+  </div> {% endcomment %}
 
 
   <!-- Call to Action -->

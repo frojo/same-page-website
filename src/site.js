@@ -47,6 +47,7 @@ function initDraggables() {
   
       // todo: how do we support multiple gestures?
       if (!dragging) { return; }
+
   
       // current position of mouse
       const mx = e.clientX
@@ -64,7 +65,7 @@ function initDraggables() {
       const elm = draggingElm;
   
       // apply it to the initial position
-      draggingelm.style.left = `${p0.x + dx}px`
+      draggingElm.style.left = `${p0.x + dx}px`
       draggingElm.style.top = `${p0.y + dy}px`
   
     }
@@ -132,7 +133,7 @@ function initDraggables() {
 
 }
 
-//initDraggables();
+initDraggables();
 
 let rotationMagnitude = 10;
 let scaleMagnitude = .2;
@@ -152,7 +153,6 @@ function randomizeTranslation() {
 
 function jitterElms(elms) {
   for (const elm of elms) {
-    console.log('rotating ' + elm);
     randomizeRotation(elm);
 
 
@@ -166,7 +166,6 @@ function jitterElms(elms) {
 
 
     let translateY = randomizeTranslation();
-    console.log(translateY);
     elm.style.setProperty('--translateY', `${translateY}%`);
 
   }
@@ -174,12 +173,21 @@ function jitterElms(elms) {
 
 const allPhotos = document.getElementsByClassName('about-pile-image-container');
 const fgPhotos = document.getElementsByClassName('about-pile-image-foreground');
+const nicknacks = document.getElementsByClassName('nicknack');
 
+// jitterElms(allPhotos);
 jitterElms(fgPhotos);
+jitterElms(nicknacks);
 
 
 function positionForegroundPhotos() {
-  const elms = document.getElementsByClassName('about-pile-image-foreground');
+  let elms = document.getElementsByClassName('about-pile-image-foreground');
+  elms = [...elms];
+
+  elms.sort(() => {
+    return 0.5 - Math.random();
+  });
+
   const num = elms.length;
   for (let i = 0; i < num; i++) {
     const elm = elms[i];
@@ -192,7 +200,6 @@ function positionForegroundPhotos() {
     let padding = interval / 6;
     let range = interval - padding*2;
     let left = padding + offset + Math.random()*range;
-    console.log(`left: ${left}`);
     elm.style.setProperty('--left', `${left}%`);
   }
 }

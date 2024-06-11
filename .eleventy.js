@@ -24,6 +24,8 @@ module.exports = function (config) {
 
   config.addFilter("titled", titled)
 
+
+
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON
   config.addDataExtension("yaml", (contents) => yaml.load(contents));

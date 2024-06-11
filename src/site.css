@@ -14,7 +14,7 @@ $pageMargin: 2vw;
 
 
 body {
-    background-color: $cream;
+    background-color: $green;
 }
 
 /* ~~ Landing ~~ */
@@ -75,10 +75,12 @@ body {
 /* ~~ Header ~~ */
 
 .nav {
-    margin-right: $pageMargin;
-    margin-left: $pageMargin;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    background-color: $cream;
+
+    padding-right: $pageMargin;
+    padding-left: $pageMargin;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 
     display: flex;
     flex-wrap: nowrap;
@@ -115,7 +117,7 @@ body {
     margin-left: 3vw;
     white-space: nowrap;
 
-    &:hover {
+    &:hover, &:active {
         color: $green;
 		&:before {
 			position: absolute;
@@ -190,6 +192,8 @@ body {
 /* ~~ Selected Work ~~ */
 
 .selected-work {
+    background-color: $cream;
+
     /* margin-right: $pageMargin;
     margin-left: $pageMargin; */
 
@@ -267,6 +271,7 @@ body {
 /* ~~ portfolio Item ~~ */
 
 .portfolio-item {
+    background-color: $cream;
 
     display: grid;
     row-gap: 10px;
@@ -374,14 +379,14 @@ body {
     flex-direction: column;
     justify-content: center;
 
-    margin: 20px;
+    margin: 2rem 1rem;
 
 }
 .about-front-page-title {
     font-family: $fontSansDisplay;
     font-size: 64px;
 
-    margin-bottom: 47px;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -392,6 +397,7 @@ body {
 
 .about-front-page-image {
     height: 100%;
+    object-fit: cover;
 }
 
 .about-pile {
@@ -408,10 +414,7 @@ body {
     position: relative;
 }
 
-.about-pile-image-container {
-    height: 15rem;
-    flex-grow: 1;
-
+.about-pile-transformable {
     --rotation: 0deg;
     --scale: 1;
     --translateX: 0px;
@@ -419,6 +422,11 @@ body {
     transform: rotate(var(--rotation)) 
                scale(var(--scale)) 
                translate(var(--translateX), var(--translateY));
+}
+
+.about-pile-image-container {
+    height: 15rem;
+    flex-grow: 1;
 }
 
 .about-pile-image-foreground {
@@ -448,33 +456,33 @@ body {
 
 .about-services-title {
     font-family: $fontSansDisplay;
-    font-size: 64px;
+    font-size: 48px;
 
     margin-right: $pageMargin;
     margin-left: $pageMargin;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .about-services-body {
     background-color: $cream;
     color: $black;
     
-    padding-right: 85px;
-    padding-left: 85px;
-
-    padding-bottom: 53px;
-    padding-top: 53px;
+    padding: 2rem $pageMargin;
 }
 
 .about-service {
-    margin-bottom: 39px;
+    margin-bottom: 2rem;
+}
+
+.about-service:last-child {
+    margin-bottom: 0px;
 }
 
 .about-service-title {
     font-family: $fontSansDisplay;
-    font-size: 24px;
+    font-size: 20px;
     
     margin-bottom: 10px;
 }
@@ -489,35 +497,48 @@ body {
     justify-content: center;
     align-items: center;
 
-
-    padding-bottom: 100px;
-    padding-top: 100px;
-
+    padding: 2rem 0rem;
 }
 
 .about-call-text {
-    font-family: $fontSerifModern;
+    font-family: $fontSansDisplay;
     font-size: 32px;
 
-    margin-right: 36px;
+    margin-right: 3rem;
 }
 
 .about-call-button {
-    font-family: $fontTypewriter;
-    font-size: 36px;
+    background-color: $green;
+    color: $cream;
+
+    border: $cream solid 2px;
+
+    font-family: $fontSansDisplay;
+    font-size: 32px;
+
+    padding: .4rem .9rem;
+}
     
+.about-call-button:hover, .about-call-button:active {
+    background-color: $cream;
+    color: $green;
 }
 
 .draggable {
     position: absolute;
 
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.4);
 
-    transform: rotate(-20deg)
+    /* pointer-events: all; */
+}
+
+/* need this to make draggable work with my code */
+.draggable * {
+  pointer-events: none;
 }
 
 .draggable-image {
-    max-height: 30vh;
+    max-width: 15rem;
 
 }
 
@@ -550,10 +571,50 @@ body {
 
     .portfolio-item-still-grid {
         display: grid;
-        grid-template-columns: 1fr;
+        height: 70vh;
 
-        margin: 0px;
     }
+
+    .about-front-page {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-front-page-image {
+    }
+
+
+    .about-front-page-title {
+        font-size: 32px;
+    }
+
+    .about-front-page-body {
+        font-family: $fontSansBody;
+        font-size: 16px;
+    }
+
+    .about-services-title {
+        font-size: 32px;
+
+    }
+
+    .about-service-title {
+        font-size: 16px;
+    }
+
+    .about-service-description {
+        font-family: $fontSansBody;
+        font-size: 16px;
+    }
+
+    .about-call-text {
+        font-size: 20px;
+    }
+
+    .about-call-button {
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (max-width: 760px) {
