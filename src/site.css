@@ -119,11 +119,11 @@ body {
 
     &:hover, &:active {
         color: $green;
+
 		&:before {
 			position: absolute;
 			content: attr(data-content);
 			transform: translate(-50%,-50%);
-			z-index: -1;
 
 			top: 49.5%;
 			left: 49.5%;
