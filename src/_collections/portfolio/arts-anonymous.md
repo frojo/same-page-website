@@ -1,6 +1,6 @@
 ---
 my_title: Arts Anonymous
-description: Arts Anonymous
+description: This is a description
 thumbnail: /assets/img/screenshot-2024-06-07-at-9.51.49 am.png
 video_embed:
   code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
