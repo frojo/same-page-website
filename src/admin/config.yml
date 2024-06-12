@@ -7,7 +7,7 @@ backend:
   # repo: frojo/same-page-website
 media_folder: "src/assets/img"
 public_folder: "/assets/img"
-logo_url: "/static/img/same_page_logo_colors.svg"
+logo_url: "https://www.samepagefilms.co/assets/img/logo.svg"
 
 media_library:
   name: cloudinary
