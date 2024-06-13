@@ -60,8 +60,10 @@ collections:
               - { label: 'Role', name: 'role', widget: 'string' }
       - label: "Stills"
         name: "stills"
-        widget: "list"
-        field: { label: "Still", name: "still", widget: "image" }
+        widget: image
+        media_library:
+          config:
+            multiple: true
   - label: "About Page"
     name: "about"
     files:
