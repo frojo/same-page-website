@@ -322,6 +322,7 @@ body {
     line-height: 24px;
 
     flex-shrink: 0;
+    align-self: stretch;
 
 }
 
@@ -330,17 +331,22 @@ body {
 
 .portfolio-item-credits-name {
     font-family: $fontSansCredit;
+    /* font-size: 20px; */
     font-size: 16px;
 
+    /* text-transform: lowercase; */
     text-transform: uppercase;
 
     margin-right: 5px;
 }
 
 .portfolio-item-credits-role {
-    font-family: serif;
-    font-size: 12px;
-    font-style: italic;
+    font-family: $fontSansBody;
+    /* font-family: serif; */
+    font-size: 16px;
+    /* font-size: 12px; */
+    /* font-se: italic; */
+    text-transform: lowercase;
 
 }
 
@@ -439,10 +445,7 @@ body {
     --left: 50%;
 
     translate: -50% -50%;
-
-
 }
-
 
 .about-pile-image {
     max-height: 100%;

@@ -77,6 +77,12 @@ collections:
           - label: Body
             name: body
             widget: text
+          - label: Image
+            name: image
+            widget: image
+            media_library:
+              config:
+                multiple: false
       - label: "Services"
         name: "services"
         file: "src/_data/about/services.yaml"

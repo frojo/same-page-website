@@ -10,6 +10,13 @@ module.exports = function (config) {
   const srcDir = "src"
 
 
+	config.setBrowserSyncConfig({
+		ui: {
+      port: 3002
+    }
+	});
+
+
   // Disable automatic use of your .gitignore
   config.setUseGitIgnore(false);
 
