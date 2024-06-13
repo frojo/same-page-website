@@ -23,4 +23,15 @@ credits:
   - credit:
       name: Alex Eaker
       role: DoP
+stills:
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309730/GBF_3.21.1_k4invc.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309718/GBF_1.18.2_pwzvny.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309729/GBF_1.10.1_usp33e.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309724/GBF_1.2.1_u7mzbj.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309722/GBF_3.5.1_j74sz2.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309721/GBF_1.17.1_jo2s16.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309720/GBF_4.3.1_imsdxn.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309720/GBF_3.14.1_s6c0wl.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309719/GBF_1.22.1_ivryx9.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309718/GBF_1.24.1_bjmzrb.png
 ---

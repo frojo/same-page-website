@@ -31,10 +31,10 @@ credits:
       name: Some Other Person
       role: Talent
 stills:
-  - /assets/img/cap-usa_1.15.1.png
-  - /assets/img/cap-usa_1.56.1.png
-  - /assets/img/caps-usa_1.42.1.png
-  - /assets/img/cap-usa_4.10.1.png
-  - /assets/img/cap-usa_3.10.1.png
-  - /assets/img/cap-usa_3.5.1.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309737/CAP_USA_1.15.1_wnbsj2.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309729/CAP_USA_3.5.1_asanqk.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309736/CAP_USA_1.56.1_mwijxj.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309735/CAPS_USA_1.42.1_e4ot2a.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309733/CAP_USA_3.10.1_xhxwwm.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309732/CAP_USA_4.10.1_houp06.png
 ---

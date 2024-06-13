@@ -11,6 +11,12 @@ video_embed:
     Anonymous | Fashion Campaign"></iframe></div><script
     src="https://player.vimeo.com/api/player.js"></script>
 stills:
-  - /assets/img/thumb-1-.jpg
-  - /assets/img/screenshot-2024-06-07-at-9.48.42 am.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309691/Screenshot_2024-06-07_at_9.51.10_AM_sy4nhu.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309691/Screenshot_2024-06-07_at_9.48.42_AM_z2yxig.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309676/Screenshot_2024-06-07_at_9.49.14_AM_zvbhbr.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309687/Screenshot_2024-06-07_at_9.49.55_AM_l4c6tm.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309684/Screenshot_2024-06-07_at_9.49.40_AM_mlmqn2.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309682/Screenshot_2024-06-07_at_9.50.30_AM_mxgenh.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309682/Screenshot_2024-06-07_at_9.50.50_AM_txpcyo.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309678/Screenshot_2024-06-07_at_9.48.20_AM_lhegze.png
 ---
