@@ -4,9 +4,6 @@ path: about
 ---
 
 <div class="about">
-
-
-
   <!-- Front Page -->
   <div class="about-front-page">
     <div class="about-front-page-text">
@@ -25,14 +22,14 @@ path: about
     {% assign num_foreground = 3 %}
 
     <!-- Background photos -->
-    {%- for image in about.bts1.images offset: num_foreground %}
+    {%- for image in about.bts1.photos offset: num_foreground %}
       <div class="about-pile-transformable about-pile-image-container">
         <img class="about-pile-image" src="{{ image }}" />
       </div>
     {%- endfor -%}
 
     <!-- Foreground photos -->
-    {%- for image in about.bts1.images limit: num_foreground %}
+    {%- for image in about.bts1.photos limit: num_foreground %}
       <div class="about-pile-transformable about-pile-image-container about-pile-image-foreground">
         <img class="about-pile-image" src="{{ image }}" />
       </div>
@@ -40,14 +37,11 @@ path: about
 
 
     <!-- Nicknacks-->
-    <div class="about-pile-transformable draggable nicknack about-pile-image-foreground">
-      <img class="draggable-image" src="/assets/img/memorabilia/mingus.jpeg" />
-    </div>
-
-    <div class="about-pile-transformable draggable nicknack about-pile-image-foreground">
-      <img class="draggable-image" src="/assets/img/memorabilia/dbz-buu.png" />
-    </div>
-
+    {%- for image in about.bts1.nicknacks %}
+      <div class="about-pile-transformable draggable nicknack about-pile-image-foreground">
+        <img class="draggable-image" src="{{ image }}" />
+      </div>
+    {%- endfor -%}
   </div>
 
   <!-- Services -->

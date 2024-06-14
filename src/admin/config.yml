@@ -97,8 +97,14 @@ collections:
         name: "bts1"
         file: "src/_data/about/bts1.yaml"
         fields:
-          - label: Images
-            name: images
+          - label: Photos
+            name: photos 
+            widget: image
+            media_library:
+              config:
+                multiple: true
+          - label: Nicknacks
+            name: nicknacks 
             widget: image
             media_library:
               config:
@@ -107,8 +113,14 @@ collections:
         name: "bts2"
         file: "src/_data/about/bts2.yaml"
         fields:
-          - label: Images
-            name: images
+          - label: Photos
+            name: photos 
+            widget: image
+            media_library:
+              config:
+                multiple: true
+          - label: Nicknacks
+            name: nicknacks 
             widget: image
             media_library:
               config:
