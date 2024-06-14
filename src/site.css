@@ -404,6 +404,7 @@ body {
 .about-front-page-image {
     height: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .about-pile {
@@ -581,9 +582,7 @@ body {
     .about-front-page {
         display: flex;
         flex-direction: column-reverse;
-    }
 
-    .about-front-page-image {
     }
 
 
