@@ -6,7 +6,11 @@
 
 
     <!-- page -->
-    <title>{{my_title}}</title>
+
+    {% if title == null %}
+      {% assign title = "Same Page Films" %}
+    {% endif %}
+    <title>{{ title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
