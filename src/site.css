@@ -410,16 +410,11 @@ body {
 .about-pile {
     display: flex;
     flex-wrap: wrap;
-
-}
-
-.item {
-}
-
-
-.about-pile {
     position: relative;
+
+    overflow-x: hidden;
 }
+
 
 .about-pile-transformable {
     --rotation: 0deg;
@@ -508,7 +503,7 @@ body {
     font-family: $fontSansDisplay;
     font-size: 32px;
 
-    margin-right: 3rem;
+    margin-right: 1rem;
 }
 
 .about-call-button {
@@ -584,7 +579,6 @@ body {
         flex-direction: column-reverse;
 
     }
-
 
     .about-front-page-title {
         font-size: 32px;

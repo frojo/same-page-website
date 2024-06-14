@@ -114,10 +114,11 @@ function initDraggables() {
     
 
     function preventBehavior(e) {
+      e.preventDefault();
     e.preventDefault();
     };
     
-    container.addEventListener("touchmove", preventBehavior, {passive: false});
+    d.addEventListener("touchmove", preventBehavior, {passive: false});
     
 
     // this is to stop the onclick from bubbling up to
