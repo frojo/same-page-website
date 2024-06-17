@@ -413,6 +413,8 @@ body {
     position: relative;
 
     overflow-x: hidden;
+    overflow-y: visible;
+
 }
 
 
@@ -427,12 +429,14 @@ body {
 }
 
 .about-pile-image-container {
-    height: 15rem;
+    height: 25rem;
     flex-grow: 1;
 }
 
 .about-pile-image-foreground {
     position: absolute;
+
+    height: 15rem;
 
     top: var(--top);
     left: var(--left);

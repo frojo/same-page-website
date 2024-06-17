@@ -30,7 +30,7 @@ path: about
 
     <!-- Foreground photos -->
     {%- for image in about.bts1.photos limit: num_foreground %}
-      <div class="about-pile-transformable about-pile-image-container about-pile-image-foreground">
+      <div class="about-pile-transformable about-pile-image-container about-pile-image-foreground draggable">
         <img class="about-pile-image" src="{{ image }}" />
       </div>
     {%- endfor -%}
@@ -65,14 +65,31 @@ path: about
   </div>
 
   <!-- Pile 2-->
-  {% comment %} <div class="about-pile">
+  <div class="about-pile">
+    {% assign num_foreground = 3 %}
 
-    {%- for image in about.bts2.images -%}
-      <div class="about-pile-image-container">
+    <!-- Background photos -->
+    {%- for image in about.bts2.photos offset: num_foreground %}
+      <div class="about-pile-transformable about-pile-image-container">
         <img class="about-pile-image" src="{{ image }}" />
       </div>
     {%- endfor -%}
-  </div> {% endcomment %}
+
+    <!-- Foreground photos -->
+    {%- for image in about.bts2.photos limit: num_foreground %}
+      <div class="about-pile-transformable about-pile-image-container about-pile-image-foreground draggable">
+        <img class="about-pile-image" src="{{ image }}" />
+      </div>
+    {%- endfor -%}
+
+
+    <!-- Nicknacks-->
+    {%- for image in about.bts2.nicknacks %}
+      <div class="about-pile-transformable draggable nicknack about-pile-image-foreground">
+        <img class="draggable-image" src="{{ image }}" />
+      </div>
+    {%- endfor -%}
+  </div>
 
 
   <!-- Call to Action -->

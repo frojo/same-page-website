@@ -16,6 +16,10 @@ credits:
       name: same page
       role: production
 stills:
-  - /assets/img/arts-anon-thumbnail.png
-  - /assets/img/arts-anon-thumbnail.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309712/Screenshot_2024-06-07_at_9.42.48_AM_s1ssmz.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309702/3_ilff1i.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309712/Screenshot_2024-06-07_at_9.43.36_AM_dbo8t6.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309711/Screenshot_2024-06-07_at_9.44.21_AM_uhsdgs.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309707/1_pzb1b7.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309704/2_qrskc9.jpg
 ---

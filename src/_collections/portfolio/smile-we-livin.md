@@ -11,12 +11,12 @@ video_embed:
     title=\"Smile: We Livin'\"></iframe></div><script
     src=\"https://player.vimeo.com/api/player.js\"></script>"
 stills:
-  - /assets/img/thumb-4-.jpg
-  - /assets/img/thumb-4-.jpg
-  - /assets/img/thumb-4-.jpg
-  - /assets/img/thumb-4-.jpg
-  - /assets/img/thumb-4-.jpg
-  - /assets/img/thumb-4-.jpg
-  - /assets/img/thumb-4-.jpg
-  - /assets/img/thumb-4-.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309711/1_1.3.1_kwpf51.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309690/5_1.5.1_yrtbmj.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309708/2_1.1.1_oqb4fz.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309697/6_1.7.1_loemub.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309697/3_1.2.1_lhquqt.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309695/4_1.4.1_xhhl2u.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309694/8_1.22.1_oyfsh4.png
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309691/7_3.1.1_b9grrb.png
 ---
