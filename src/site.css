@@ -154,7 +154,6 @@ body {
 } */
 
 .nav-link > a {
-
     color: black;
 }
 
@@ -181,6 +180,11 @@ body {
 
     flex: 1;
     color: $white;
+}
+
+.footer-email > a {
+    color: $white;
+    text-decoration: none;
 }
 
 .footer-insta-icon {

@@ -43,6 +43,7 @@ collections:
     name: "portfolio"
     folder: "src/_collections/portfolio"
     create: true
+    preview: false
     fields:
       - { label: "Title", name: "my_title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
