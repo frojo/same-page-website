@@ -2,7 +2,7 @@
 description: This is a project
 video_embed_link: testing...wet
 my_title: Focus Camera
-thumbnail: /assets/img/thumb-6-.jpg
+thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309704/2_qrskc9.jpg
 video_embed:
   code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
     src="https://player.vimeo.com/video/945826603?h=01680e5412&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
