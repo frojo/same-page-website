@@ -5,7 +5,7 @@ description: >-
 
 
   We partnered with Cap USA to create a flagship ad that tells the story of their come up and showcases the essential part that they play in their community.
-thumbnail: /assets/img/thumb-5-.jpg
+thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309731/CAP_USA_3.38.1_axzotp.png
 video_embed:
   code: '<div style="padding:52.73% 0 0 0;position:relative;"><iframe
     src="https://player.vimeo.com/video/940808585?h=61153975a2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
