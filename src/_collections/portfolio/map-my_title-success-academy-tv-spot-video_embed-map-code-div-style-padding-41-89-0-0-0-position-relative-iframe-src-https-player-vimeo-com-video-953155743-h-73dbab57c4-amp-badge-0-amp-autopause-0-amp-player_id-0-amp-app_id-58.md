@@ -1,7 +1,7 @@
 ---
 my_title: Success Academy TV Spot
 description: wef
-thumbnail: /assets/img/success-academy-4.png
+thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309696/Success_Academy_4_w0p8om.png
 video_embed:
   code: "          <div style=\"padding:41.89% 0 0 0;position:relative;\"><iframe
     src=\"https://player.vimeo.com/video/953155743?h=73dbab57c4&amp;badge=0&amp\
