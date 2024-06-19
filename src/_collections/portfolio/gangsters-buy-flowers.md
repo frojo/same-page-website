@@ -1,7 +1,7 @@
 ---
 my_title: Gangsters Buy Flowers
 description: a better descriptions
-thumbnail: /assets/img/thumb-2-.jpg
+thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309713/GBF_2.4.2_xkvvzl.png
 video_embed:
   code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
     src="https://player.vimeo.com/video/941233075?h=956923cbe5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
