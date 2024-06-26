@@ -1,7 +1,10 @@
 ---
-description: This is a project
+description: "Focus Camera is a local camera store with a brick and mortar
+  location in South Brooklyn. Partnering with a number of camera, lighting, and
+  audio brands, the mission was to shoot a campaign focused on Brooklyn's
+  creative community and how gear helps them achieve their artistic pursuits. "
 video_embed_link: testing...wet
-my_title: Focus Camera
+my_title: Focus Camera | Holiday Campaign
 thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1718830863/thumb_uc95rc.jpg
 video_embed:
   code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
@@ -15,6 +18,15 @@ credits:
   - credit:
       name: same page
       role: production
+  - credit:
+      name: Focus Camera
+      role: Client
+  - credit:
+      name: Alex Eaker
+      role: Director, DoP, Editor, Colorist
+  - credit:
+      name: Focus Camera & Same Page Films
+      role: Producers
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309712/Screenshot_2024-06-07_at_9.42.48_AM_s1ssmz.png
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309702/3_ilff1i.jpg
