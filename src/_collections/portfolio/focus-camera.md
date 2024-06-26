@@ -1,8 +1,10 @@
 ---
-description: "Focus Camera is a local camera store with a brick and mortar
-  location in South Brooklyn. Partnering with a number of camera, lighting, and
-  audio brands, the mission was to shoot a campaign focused on Brooklyn's
-  creative community and how gear helps them achieve their artistic pursuits. "
+description: >-
+  Focus Camera is a local camera store with a brick and mortar location in South
+  Brooklyn. 
+
+
+  Partnering with a number of camera, lighting, and audio brands, the mission was to shoot a campaign focused on Brooklyn's creative community and how gear helps them achieve their artistic pursuits. 
 video_embed_link: testing...wet
 my_title: Focus Camera | Holiday Campaign
 thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1718830863/thumb_uc95rc.jpg
