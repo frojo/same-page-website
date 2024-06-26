@@ -23,6 +23,18 @@ credits:
   - credit:
       name: Alex Eaker
       role: DoP
+  - credit:
+      name: Dylan John
+      role: Talent
+  - credit:
+      name: TK Atakora
+      role: Talent
+  - credit:
+      name: Delisa Shannon
+      role: Talent
+  - credit:
+      name: Isaiah "Nano" Russell
+      role: Talent
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309730/GBF_3.21.1_k4invc.png
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309718/GBF_1.18.2_pwzvny.png
