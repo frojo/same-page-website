@@ -24,12 +24,12 @@ module.exports = function (config) {
   config.setDataDeepMerge(true);
 
   // -- filters/collections
-  /// grab an element from a collection by name
-  function titled(collection, title) {
-    return collection.find((el) => el.data.my_title === title)
+  /// grab an element from a collection by id 
+  function getById(collection, id) {
+    return collection.find((el) => el.data.id === id)
   }
 
-  config.addFilter("titled", titled)
+  config.addFilter("getById", getById)
 
 
 

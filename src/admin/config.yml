@@ -34,11 +34,12 @@ collections:
           widget: "list"
           fields: 
           - label: Portfolio Item
-            name: title 
+            name: id 
             widget: "relation"
             collection: "portfolio"
-            value_field: "my_title"
+            value_field: "id"
             search_fields: ["my_title"]
+            display_fields: ["my_title"]
   - label: "Portfolio Items"
     name: "portfolio"
     folder: "src/_collections/portfolio"
@@ -46,6 +47,7 @@ collections:
     preview: false
     fields:
       - { label: "Title", name: "my_title", widget: "string" }
+      - { label: "ID - DO NOT CHANGE", name: "id", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Thumbnail Image", name: "thumbnail", widget: "image" }
       - { label: "Video Embed", name: "video_embed", widget: "code" }

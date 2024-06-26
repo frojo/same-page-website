@@ -1,5 +1,6 @@
 ---
 my_title: Success Academy TV Spot
+id: success_academy_tv_spot
 description: >
   Success Academy is the largest Charter School Network in New York City. With
   this Spot, we wanted to paint the lives of both the families and teachers as

@@ -1,5 +1,6 @@
 ---
 my_title: Gangsters Buy Flowers
+id: gangsters_buy_flowers
 description: >-
   Gangsters Buy Flowers is the brainchild of Maxime Hilaire. The “Gangsters Buy
   Flowers” brand is about highlighting the duality of man. The art of having a

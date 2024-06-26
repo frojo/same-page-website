@@ -1,5 +1,6 @@
 ---
 my_title: "Smile: We Livin'"
+id: smile_we_living
 description: "With the mission to tell the unique stories centered around
   grills--their cultural impact and history--director Olivia \"Lit Liv\" Forston
   brought our team in to bring their vision to life. Smile: We Livin' is both a

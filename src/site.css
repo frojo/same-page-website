@@ -428,7 +428,7 @@ body {
     --translateX: 0px;
     --translateY: 0px;
     transform: rotate(var(--rotation)) 
-               scale(var(--scale)) 
+               /* scale(var(--scale))  */
                translate(var(--translateX), var(--translateY));
 }
 
@@ -545,7 +545,8 @@ body {
 }
 
 .draggable-image {
-    max-width: 15rem;
+    max-height: 100%;
+    min-width: 100%;
 
 }
 

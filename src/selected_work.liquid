@@ -10,7 +10,9 @@ eleventyImport:
 <div class="selected-work">
   {%- for item in portfolio_order.order -%}
 
-    {% assign work_item = collections.portfolio | titled: item.title %}
+    {% assign work_item = collections.portfolio | getById: item.id %}
+
+    {{ item | log }}
 
     <a class="selected-work-thumbnail" href="/work/{{work_item.fileSlug}}">
         <div class="selected-work-thumbnail-overlay-letterbox">

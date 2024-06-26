@@ -1,7 +1,8 @@
 order:
+  - id: we_are_cap_usa
+  - id: gangsters_buy_flowers
+  - id: success_academy_tv_spot
+  - id: smile_we_living
+  - id: arts_anonymous
   - title: We Are Cap USA
-  - title: Gangsters Buy Flowers
-  - title: Success Academy TV Spot
-  - title: "Smile: We Livin'"
-  - title: Arts Anonymous
-  - title: Focus Camera
+    id: focus_camera

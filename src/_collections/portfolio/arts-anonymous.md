@@ -1,5 +1,6 @@
 ---
 my_title: Arts Anonymous
+id: arts_anonymous
 description: "Our client wanted a short fashion film that emphasized their new
   branded Caps. With a skeleton team, we shot in Brooklyn Heights around golden
   hour to capture the mythical size and feeling of New York City's horizon as a
