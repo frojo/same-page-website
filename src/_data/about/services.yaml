@@ -1,9 +1,7 @@
 services:
-  - title: Production
-    desc: " Our production justo sit amet mattis maximus, mauris mauris tempor
-      ipsum, sed cursus sapien augue eget ligula. Etiam vel condimentum sapien,
-      vitae mattis "
-  - title: Production
-    desc: " Our production justo sit amet mattis maximus, mauris mauris tempor
-      ipsum, sed cursus sapien augue eget ligula. Etiam vel condimentum sapien,
-      vitae mattis "
+  - title: Same Page
+    desc: A full-service production covering everything Pre to Post.
+  - title: small footprint, big impact
+    desc: "Taking the bloat out of commercial video production, we know how to work
+      in the new landscape of content creation and filmmaking. Making visually
+      striking films with just the right amount of ingredients. "
