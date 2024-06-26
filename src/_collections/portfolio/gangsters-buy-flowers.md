@@ -1,6 +1,14 @@
 ---
 my_title: Gangsters Buy Flowers
-description: a better descriptions
+description: >-
+  Gangsters Buy Flowers is the brainchild of Maxime Hilaire. The “Gangsters Buy
+  Flowers” brand is about highlighting the duality of man. The art of having a
+  tough exterior but having a softer side. Hustling all day, but picking up a
+  bouquet for the house on your way home. GBF is having a love & admiration for
+  life & the beautiful atmosphere that flowers create.
+
+
+  We partnered with GBF to highlight the brand in a way that authentically captured the essence of the brand. 
 thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309713/GBF_2.4.2_xkvvzl.png
 video_embed:
   code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
