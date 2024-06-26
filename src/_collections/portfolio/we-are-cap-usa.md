@@ -25,10 +25,7 @@ credits:
       name: Alex Eaker
       role: DoP
   - credit:
-      name: Lucky Banks
-      role: Talent
-  - credit:
-      name: Orie
+      name: Lucky Banks, Orie.4
       role: Talent
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309737/CAP_USA_1.15.1_wnbsj2.png
