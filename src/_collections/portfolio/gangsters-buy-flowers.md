@@ -43,6 +43,12 @@ credits:
   - credit:
       name: Isaiah "Nano" Russell
       role: Talent
+  - credit:
+      name: Reginald Spruill Jr
+      role: Producer
+  - credit:
+      name: Reginald Spruill Jr
+      role: Stylist
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309730/GBF_3.21.1_k4invc.png
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309718/GBF_1.18.2_pwzvny.png
