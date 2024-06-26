@@ -33,6 +33,7 @@ credits:
       role: DoP
   - credit:
       name: Dylan John, TK Atakora, Delisa Shannon, Isaiah "Nano" Russell, Madeline
+        Liongson
       role: Talent
   - credit:
       name: Reginald Spruill Jr.
