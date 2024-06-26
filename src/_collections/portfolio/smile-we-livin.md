@@ -22,7 +22,16 @@ credits:
       name: Alex Eaker & Temi Okotieuro
       role: DoP
   - credit:
-      name: Sim from the Hill, Taylor Hawkins, Kendra, Reneé Simone, Gvvaan
+      name: Sim from the Hill
+      role: Talent
+  - credit:
+      name: Taylor Hawkins
+      role: Talent
+  - credit:
+      name: Kendra
+      role: Talent
+  - credit:
+      name: Gvvaan
       role: Talent
   - credit:
       name: LR2 Photo Studio
