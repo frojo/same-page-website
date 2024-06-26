@@ -8,7 +8,7 @@ description: >-
   life & the beautiful atmosphere that flowers create.
 
 
-  We partnered with GBF to highlight the brand in a way that authentically captured the essence of the brand. 
+  We partnered with GBF to highlight the work Max does in a way that authentically encapsulates the essence of the brand. 
 thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309713/GBF_2.4.2_xkvvzl.png
 video_embed:
   code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
@@ -32,23 +32,8 @@ credits:
       name: Alex Eaker
       role: DoP
   - credit:
-      name: Dylan John
+      name: Dylan John, TK Atakora, Delisa Shannon, Isaiah "Nano" Russell, Madeline
       role: Talent
-  - credit:
-      name: TK Atakora
-      role: Talent
-  - credit:
-      name: Delisa Shannon
-      role: Talent
-  - credit:
-      name: Isaiah "Nano" Russell
-      role: Talent
-  - credit:
-      name: Reginald Spruill Jr
-      role: Producer
-  - credit:
-      name: Reginald Spruill Jr
-      role: Stylist
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309730/GBF_3.21.1_k4invc.png
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309718/GBF_1.18.2_pwzvny.png
