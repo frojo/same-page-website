@@ -28,14 +28,20 @@ credits:
       name: Alexandra Francesca
       role: Producer
   - credit:
-      name: Temi Okotieuro & Sonia Colon
-      role: Associate Producers
+      name: "Temi Okotieuro "
+      role: Associate Producer
+  - credit:
+      name: Sonia Colon
+      role: Associate Producer
   - credit:
       name: Alex Eaker
       role: Director of Photography
   - credit:
-      name: Nick DeSanto & Matt Espinosa
-      role: Grip and Gaff Team
+      name: Nick DeSanto
+      role: Gaffer
+  - credit:
+      name: Matthew Espinosa
+      role: Key Grip
   - credit:
       name: Jonathan Foster
       role: Set Design
