@@ -34,6 +34,12 @@ credits:
   - credit:
       name: Dylan John, TK Atakora, Delisa Shannon, Isaiah "Nano" Russell, Madeline
       role: Talent
+  - credit:
+      name: Reginald Spruill Jr.
+      role: Stylist
+  - credit:
+      role: Producers
+      name: Reginald Spruill Jr, Temi Okotieuro
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309730/GBF_3.21.1_k4invc.png
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309718/GBF_1.18.2_pwzvny.png
