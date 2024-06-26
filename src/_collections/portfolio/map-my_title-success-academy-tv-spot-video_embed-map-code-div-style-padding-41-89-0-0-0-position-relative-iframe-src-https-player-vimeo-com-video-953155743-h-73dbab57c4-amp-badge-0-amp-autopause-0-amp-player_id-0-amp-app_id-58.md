@@ -1,6 +1,13 @@
 ---
 my_title: Success Academy TV Spot
-description: wef
+description: >
+  Success Academy is the largest Charter School Network in New York City. With
+  this Spot, we wanted to paint the lives of both the families and teachers as
+  they prepare to start their school day--to show the morning rituals involved
+  in starting a day off successfully. 
+
+
+  Stylistically, we aimed to achieve a naturalist and intimate look, allowing the viewer to feel like they were part of the character's everyday journey. We shot the ad on anamorphic lenses, using real families and school locations.
 thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309696/Success_Academy_4_w0p8om.png
 video_embed:
   code: "          <div style=\"padding:41.89% 0 0 0;position:relative;\"><iframe
@@ -10,6 +17,31 @@ video_embed:
     style=\"position:absolute;top:0;left:0;width:100%;height:100%;\"
     title=\"Success Academy TV Spot | Director's Cut\"></iframe></div><script
     src=\"https://player.vimeo.com/api/player.js\"></script>"
+credits:
+  - credit:
+      name: Success Academy
+      role: Client
+  - credit:
+      name: Alex Eaker
+      role: Director
+  - credit:
+      name: Alexandra Francesca
+      role: Producer
+  - credit:
+      name: Temi Okotieuro & Sonia Colon
+      role: Associate Producers
+  - credit:
+      name: Alex Eaker
+      role: Director of Photography
+  - credit:
+      name: Nick DeSanto & Matt Espinosa
+      role: Grip and Gaff Team
+  - credit:
+      name: Jonathan Foster
+      role: Set Design
+  - credit:
+      name: Alex Eaker
+      role: Editor & Colorist
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309707/Success_Academy_5_ew3z1p.png
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309699/Screenshot_2024-06-07_at_9.34.55_AM_cuqxda.png
