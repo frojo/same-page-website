@@ -512,6 +512,7 @@ body {
     font-size: 32px;
 
     margin-right: 1rem;
+
 }
 
 .about-call-button {
@@ -522,6 +523,7 @@ body {
 
     font-family: $fontSansDisplay;
     font-size: 32px;
+    text-decoration: none;
 
     padding: .4rem .9rem;
 }
