@@ -11,8 +11,19 @@ layout: page
         <div class="portfolio-item-credits">
           {%- for credit in credits -%}
             <div class="portfolio-item-credits-entry">
-                 <span class="portfolio-item-credits-name">{{credit.credit.role}}</span>
-                 <span class="portfolio-item-credits-role">{{credit.credit.name}}</span>
+              {% comment %} todo: switch over all credits to new "name list" format {% endcomment %}
+              {%  if credit.credit.name %}  
+                <span class="portfolio-item-credits-role">{{credit.credit.role}}</span>
+                <span class="portfolio-item-credits-name">{{credit.credit.name}}</span>
+              {%  else  %} {% comment %} credit.credit.names {% endcomment %}
+                <div class="portfolio-item-credits-role-multiple">{{credit.credit.role}}</div>
+                {%- for name in credit.credit.names -%}
+                  <div class="portfolio-item-credits-name-multiple">{{name.name}}</div>
+                {% endfor %}
+              {%  else  %}
+              
+              {% endif %}
+
             </div>
           {%- endfor -%}
         </div>

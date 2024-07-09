@@ -333,7 +333,7 @@ body {
 .portfolio-item-credits-entry {
 }
 
-.portfolio-item-credits-name {
+.portfolio-item-credits-role {
     font-family: $fontSansCredit;
     /* font-size: 20px; */
     font-size: 16px;
@@ -344,7 +344,28 @@ body {
     margin-right: 5px;
 }
 
-.portfolio-item-credits-role {
+.portfolio-item-credits-name {
+    font-family: $fontSansBody;
+    /* font-family: serif; */
+    font-size: 16px;
+    /* font-size: 12px; */
+    /* font-se: italic; */
+    text-transform: lowercase;
+
+}
+
+.portfolio-item-credits-role-multiple {
+    font-family: $fontSansCredit;
+    /* font-size: 20px; */
+    font-size: 16px;
+
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+
+    margin-right: 5px;
+}
+
+.portfolio-item-credits-name-multiple {
     font-family: $fontSansBody;
     /* font-family: serif; */
     font-size: 16px;

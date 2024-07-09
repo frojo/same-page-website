@@ -33,9 +33,13 @@ credits:
       name: Alex Eaker
       role: DoP
   - credit:
-      name: Dylan John, TK Atakora, Delisa Shannon, Isaiah "Nano" Russell, Madeline
-        Liongson
       role: Talent
+      names:
+        - name: Dylan John
+        - name: TK Atakora
+        - name: Delisa Shannon
+        - name: Isaiah "Nano" Russell
+        - name: Madeline Liongson
   - credit:
       name: Reginald Spruill Jr.
       role: Stylist

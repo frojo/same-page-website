@@ -59,8 +59,13 @@ collections:
             name: "credit"
             widget: "object"
             fields:
-              - { label: 'Name', name: 'name', widget: 'string' }
               - { label: 'Role', name: 'role', widget: 'string' }
+              - label: Names
+                name: names 
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+
       - label: "Stills"
         name: "stills"
         widget: image
