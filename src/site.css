@@ -567,6 +567,7 @@ body {
         display: block;
         margin: 0px;
     }
+    
 
     .portfolio-item-details {
 
@@ -576,6 +577,16 @@ body {
         margin: 1vh 2vw;
         /* margin-bottom: 1vh;
         margin-top: 1vh; */
+    }
+
+    .portfolio-item-credits {
+        min-width: 100px;
+        max-width: 200px;
+
+        align-self: flex-start;
+
+        
+
     }
 
 
