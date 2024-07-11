@@ -28,8 +28,10 @@ credits:
       name: Alex Eaker
       role: Director, DoP, Editor, Colorist
   - credit:
-      name: Focus Camera & Same Page Films
       role: Producers
+      names:
+        - name: Focus Camera
+        - name: Same Page Films
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309712/Screenshot_2024-06-07_at_9.42.48_AM_s1ssmz.png
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309702/3_ilff1i.jpg

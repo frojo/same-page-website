@@ -20,10 +20,14 @@ credits:
       role: Director
       name: Olivia "Lit Liv" Forston
   - credit:
-      name: Alex Eaker & Temi Okotieuro
       role: DoP
+      names:
+        - name: Alex Eaker
+        - name: Temi Okotieuro
   - credit:
-      name: Sim from the Hill, Taylor Hawkins, Kendra, Gvvaan
+      names:
+        - name: Sim from the Hill
+        - name: Taylor Hawkins,
       role: Talent
   - credit:
       name: LR2 Photo Studio

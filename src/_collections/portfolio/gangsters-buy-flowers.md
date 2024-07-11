@@ -49,10 +49,6 @@ credits:
       names:
         - name: Reginald Spruill Jr
         - name: Temi Okotieuro
-  - credit:
-      role: TESTTESTTEST
-      names:
-        - name: A perosn witha long name
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309730/GBF_3.21.1_k4invc.png
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1718309718/GBF_1.18.2_pwzvny.png

@@ -336,61 +336,22 @@ body {
 
 }
 
-.portfolio-item-credits-entry {
-    /* display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    column-gap: 10px; */
-
-
-    margin-bottom: .8vh;
-
-}
-
 .portfolio-item-credits-role {
     font-family: $fontSansCredit;
-    /* font-size: 20px; */
     font-size: 16px;
 
-    /* text-transform: lowercase; */
     text-transform: uppercase;
 
-    /* margin-right: 5px; */
 }
 
 .portfolio-item-credits-name {
     font-family: $fontSansBody;
-    /* font-family: serif; */
     font-size: 16px;
-    /* font-size: 12px; */
-    /* font-se: italic; */
     text-transform: lowercase;
 
     white-space: nowrap;
-
 }
 
-.portfolio-item-credits-role-multiple {
-    font-family: $fontSansCredit;
-    /* font-size: 20px; */
-    font-size: 16px;
-
-    /* text-transform: lowercase; */
-    text-transform: uppercase;
-
-    margin-right: 5px;
-}
-
-.portfolio-item-credits-name-multiple {
-    font-family: $fontSansBody;
-    /* font-family: serif; */
-    font-size: 16px;
-    /* font-size: 12px; */
-    /* font-se: italic; */
-    text-transform: lowercase;
-
-}
 
 .portfolio-item-still-grid {
     margin: 0vh 1vh 1vh 1vh;

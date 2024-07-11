@@ -10,20 +10,18 @@ layout: page
     <div class="portfolio-item-details">
         <div class="portfolio-item-credits">
           {%- for credit in credits -%}
-            {% comment %} <div class="portfolio-item-credits-entry"> {% endcomment %}
-              <div class="portfolio-item-credits-role">{{credit.credit.role}}</div>
+            <div class="portfolio-item-credits-role">{{credit.credit.role}}</div>
 
-              <div class="portfolio-item-credits-names">
-                {% if credit.credit.name %}  {% comment %} single name {% endcomment %}
-                  <div class="portfolio-item-credits-name">{{credit.credit.name}}</div>
-                {%  else  %} {% comment %} multiple names {% endcomment %}
-                  {%- for name in credit.credit.names -%}
-                    <div class="portfolio-item-credits-name">{{name.name}}</div>
-                  {% endfor %}
-              {% endif %}
-              </div>
+            <div class="portfolio-item-credits-names">
+              {% if credit.credit.name %}  {% comment %} single name {% endcomment %}
+                <div class="portfolio-item-credits-name">{{credit.credit.name}}</div>
+              {%  else  %} {% comment %} multiple names {% endcomment %}
+                {%- for name in credit.credit.names -%}
+                  <div class="portfolio-item-credits-name">{{name.name}}</div>
+                {% endfor %}
+            {% endif %}
+            </div>
 
-            {% comment %} </div> {% endcomment %}
           {%- endfor -%}
         </div>
         <div class="portfolio-item-details-text">
