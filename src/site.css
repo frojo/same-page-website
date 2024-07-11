@@ -115,6 +115,7 @@ body {
     padding-bottom: 20px;
 
     margin-left: 3vw;
+    white-space: nowrap;
 
     &:hover, &:active {
         color: $green;
