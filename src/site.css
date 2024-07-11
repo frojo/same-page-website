@@ -115,7 +115,6 @@ body {
     padding-bottom: 20px;
 
     margin-left: 3vw;
-    white-space: nowrap;
 
     &:hover, &:active {
         color: $green;
@@ -323,14 +322,29 @@ body {
     border: 2px solid black;
     padding: 10px 10px;
 
-    line-height: 24px;
+    line-height: 20px;
 
     flex-shrink: 0;
     align-self: stretch;
 
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 1vh;
+
 }
 
 .portfolio-item-credits-entry {
+    /* display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 10px; */
+
+
+    margin-bottom: .8vh;
+
 }
 
 .portfolio-item-credits-role {
@@ -341,7 +355,7 @@ body {
     /* text-transform: lowercase; */
     text-transform: uppercase;
 
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
 
 .portfolio-item-credits-name {
@@ -351,6 +365,8 @@ body {
     /* font-size: 12px; */
     /* font-se: italic; */
     text-transform: lowercase;
+
+    white-space: nowrap;
 
 }
 
@@ -602,12 +618,9 @@ body {
 
     .portfolio-item-credits {
         min-width: 100px;
-        max-width: 200px;
+        max-width: 300px;
 
         align-self: flex-start;
-
-        
-
     }
 
 
@@ -684,4 +697,26 @@ body {
 
     }
 
+}
+
+@media screen and (max-width: 450px) {
+    .portfolio-item-details {
+        display: block;
+    }
+
+    .portfolio-item-credits {
+        max-width: 100%;
+    }
+
+    /* .portfolio-item-video-details {
+        display: block;
+        margin: 0px;
+    }
+
+.portfolio-item-video-details {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+
+    margin: 0px 10px;
+} */
 }
