@@ -7,7 +7,13 @@ description: 'Director Kristen White reached out to us to highlight one of her
   vision. '
 thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1725203055/Stills_v2_1.31.1_ckdrrr.jpg
 video_embed:
-  code: https://vimeo.com/manage/videos/1005123726
+  code: <div style="padding:52.73% 0 0 0;position:relative;"><iframe
+    src="https://player.vimeo.com/video/1005123726?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    frameborder="0" allow="autoplay; fullscreen; picture-in-picture;
+    clipboard-write"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Knot a
+    Sweatshop | Fashion Film"></iframe></div><script
+    src="https://player.vimeo.com/api/player.js"></script>
 credits:
   - credit:
       role: DIRECTOR
