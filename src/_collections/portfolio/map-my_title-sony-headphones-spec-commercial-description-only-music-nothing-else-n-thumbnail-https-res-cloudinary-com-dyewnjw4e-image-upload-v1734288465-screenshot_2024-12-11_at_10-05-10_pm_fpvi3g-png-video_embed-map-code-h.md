@@ -5,7 +5,13 @@ description: |
   Only Music. Nothing Else
 thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1734288465/Screenshot_2024-12-11_at_10.05.10_PM_fpvi3g.png
 video_embed:
-  code: https://vimeo.com/1037925736
+  code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+    src="https://player.vimeo.com/video/1037925736?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    frameborder="0" allow="autoplay; fullscreen; picture-in-picture;
+    clipboard-write"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" title="A Sony
+    Headphone Spec Ad"></iframe></div><script
+    src="https://player.vimeo.com/api/player.js"></script>
 credits:
   - credit:
       role: Director
