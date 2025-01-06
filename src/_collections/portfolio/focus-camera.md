@@ -2,7 +2,7 @@
 video_embed_link: testing...wet
 my_title: Focus Camera | Holiday Campaign
 id: focus_camera
-hidden: true
+hidden: false
 description: >-
   Focus Camera is a local camera store with a brick and mortar location in South
   Brooklyn. 
