@@ -6,7 +6,7 @@ description: LR2 Photo Studio approached us with the vision of getting their
   mission out there. Located in the Bronx, NY, LR2 Photo Studio envisions a
   future where all creatives have the opportunity to succeed, regardless of
   background.
-thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1742917598/Stills_4.11.1_xucyzu.jpg
+thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1742918109/Stills_4.11.1_rins8w.jpg
 video_embed:
   code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
     src="https://player.vimeo.com/video/1069232102?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
