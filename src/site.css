@@ -348,8 +348,6 @@ body {
     font-family: $fontSansBody;
     font-size: 16px;
     text-transform: lowercase;
-
-    white-space: nowrap;
 }
 
 
