@@ -1,7 +1,7 @@
 ---
 my_title: SamePage Films
 id: Same Page Films
-hidden: false
+hidden: true
 description: |-
   We Are SamePage Films. 
 
