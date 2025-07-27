@@ -72,6 +72,57 @@ collections:
         media_library:
           config:
             multiple: true
+  - label: "Hidden Portfolio Order"
+    name: "hidden_portfolio_order"
+    files: 
+      - label: "Hidden Portfolio Item Order"
+        name: "hidden_portfolio_order"
+        widget: list
+        file: "src/_data/hidden_portfolio_order.yaml" 
+        fields:
+        - label: "Portfolio Item Order"
+          name: "order"
+          widget: "list"
+          fields: 
+          - label: Portfolio Item
+            name: id 
+            widget: "relation"
+            collection: "portfolio"
+            value_field: "id"
+            search_fields: ["my_title"]
+            display_fields: ["my_title"]
+  - label: "Hidden Portfolio Items"
+    name: "hidden_portfolio"
+    folder: "src/_collections/hidden_portfolio"
+    create: true
+    preview: false
+    fields:
+      - { label: "Title", name: "my_title", widget: "string" }
+      - { label: "ID - DO NOT CHANGE", name: "id", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Thumbnail Image", name: "thumbnail", widget: "image" }
+      - { label: "Video Embed", name: "video_embed", widget: "code" }
+      - label: "Credits"
+        name: "credits"
+        widget: "list"
+        fields: 
+          - label: "Credit"
+            name: "credit"
+            widget: "object"
+            fields:
+              - { label: 'Role', name: 'role', widget: 'string' }
+              - label: Names
+                name: names 
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+
+      - label: "Stills"
+        name: "stills"
+        widget: image
+        media_library:
+          config:
+            multiple: true
   - label: "About Page"
     name: "about"
     files:
