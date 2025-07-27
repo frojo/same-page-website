@@ -1,6 +1,6 @@
 ---
 my_title: LR2 Photo Studio
-id: LR2 Photo Studio
+id: lr2_photo_studio
 hidden: false
 description: LR2 Photo Studio approached us with the vision of getting their
   mission out there. Located in the Bronx, NY, LR2 Photo Studio envisions a

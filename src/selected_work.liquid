@@ -12,10 +12,6 @@ eleventyImport:
 
     {% assign work_item = collections.portfolio | getById: item.id %}
 
-    {% if work_item.data.hidden %}
-      {% continue %}
-    {% endif %}
-
     <a class="selected-work-thumbnail" href="/work/{{work_item.fileSlug}}">
         <div class="selected-work-thumbnail-overlay-letterbox">
         </div>

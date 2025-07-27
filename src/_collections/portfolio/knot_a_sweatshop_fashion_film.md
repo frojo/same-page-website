@@ -1,6 +1,6 @@
 ---
 my_title: Knot a Sweatshop | Fashion Film
-id: Fashion Film
+id: knot_a_sweatshop_fashion_film
 description: 'Director Kristen White reached out to us to highlight one of her
   custom made pieces, the "Knotty Gworl Skirt". We created this simple fashion
   film to capture the fun of the piece and collaborate with Kristen on her

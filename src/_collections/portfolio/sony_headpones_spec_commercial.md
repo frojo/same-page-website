@@ -1,6 +1,6 @@
 ---
 my_title: Sony Headphones Spec Commercial
-id: Sony Headphone Spec Commercial
+id: sony_headphone_spec_commercial
 description: |
   Only Music. Nothing Else
 thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1734288465/Screenshot_2024-12-11_at_10.05.10_PM_fpvi3g.png

@@ -1,6 +1,6 @@
 ---
 my_title: Princ3ss Pe3ch - Music Video
-id: Princ3ss Pe3ch - Music Video
+id: princ3ss_peach_music_video
 hidden: false
 description: >-
   Holy sledgehammer! We didn't think destruction could be so pink. 
