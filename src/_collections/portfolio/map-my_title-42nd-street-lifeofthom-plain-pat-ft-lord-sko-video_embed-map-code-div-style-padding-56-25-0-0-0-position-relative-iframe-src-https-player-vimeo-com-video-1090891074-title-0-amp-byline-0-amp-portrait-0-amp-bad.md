@@ -1,7 +1,8 @@
 ---
 my_title: "42nd Street: LIFEOFTHOM & Plain Pat ft. Lord Sko "
 id: "42nd Street: LIFEOFTHOM & Plain Pat ft. Lord Sko "
-description: A music video we worked on with the talented LIFEOFTHOM & Plain Pat
+description: "This ones got ladders, crash zooms, vintage cars, running through
+  the subways. What more could you people want? "
 thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1754175678/Still_2025-06-01_131816_1.28.1_ecu7cp.jpg
 video_embed:
   code: '<div style="padding:56.25% 0 0 0;position:relative;"><iframe
@@ -70,5 +71,11 @@ credits:
       role: Colorist
       names:
         - name: Alex Eaker
-stills: https://res.cloudinary.com/dyewnjw4e/image/upload/v1754175692/frame_87715_txpbbx.jpg
+stills:
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1754175685/frame_89009_rjrrpr.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1754175679/Still_2025-06-01_132455_2.20.1_hbtpn5.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1754175679/Still_2025-06-01_132209_1.58.1_bspkvs.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1754175678/Still_2025-06-01_131816_1.28.1_ecu7cp.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1754175679/Still_2025-06-01_132021_1.48.1_vancwk.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1754175679/Still_2025-06-01_132003_1.47.1_uax3vs.jpg
 ---
