@@ -14,6 +14,43 @@ video_embed:
     style="position:absolute;top:0;left:0;width:100%;height:100%;"
     title="OVERTHINKING - LIFEOFTHOM and Plain Pat"></iframe></div><script
     src="https://player.vimeo.com/api/player.js"></script>
+credits:
+  - credit:
+      role: Director
+      names:
+        - name: Temi Okotieuro
+  - credit:
+      role: Director of Photography
+      names:
+        - name: Alex Eaker
+  - credit:
+      role: 1st AD
+      names:
+        - name: Gabi Hunt
+  - credit:
+      role: 1st AC
+      names:
+        - name: Cameron Tavakoly
+  - credit:
+      role: 2nd AC
+      names:
+        - name: Jacob Sklar
+  - credit:
+      role: Gaffer
+      names:
+        - name: Luis Lopez
+  - credit:
+      role: Grip
+      names:
+        - name: Mariana Munoz
+  - credit:
+      role: PA
+      names:
+        - name: Mohammed Gueye
+  - credit:
+      role: Editor
+      names:
+        - name: Ethan Santana
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1758117610/Still_2025-09-16_145910_1.14.1_k8ti9l.png
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1758117610/Still_2025-09-16_150137_1.18.1_p9ql1q.png
