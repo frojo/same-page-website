@@ -6,6 +6,39 @@ description: A flight to Utah, a barn full of chickens and goats, the Salt Lake
 thumbnail: https://res.cloudinary.com/dyewnjw4e/image/upload/v1764602677/frame_89650_l88pf5.jpg
 video_embed:
   code: https://www.youtube.com/watch?v=5TNM18lyA78
+credits:
+  - credit:
+      role: Production Company
+      names:
+        - name: SamePage Films
+  - credit:
+      role: Director
+      names:
+        - name: Temi Okotieuro
+  - credit:
+      role: Director of Photography
+      names:
+        - name: Alex Eaker
+  - credit:
+      role: Talent
+      names:
+        - name: Olivia Wilkerson & Ethan Kelso
+  - credit:
+      role: G&E
+      names:
+        - name: Tenzin Lazerson
+  - credit:
+      role: Editor
+      names:
+        - name: Alex Eaker
+  - credit:
+      role: "Colorist "
+      names:
+        - name: Cameron Tavakoly
+  - credit:
+      role: Label
+      names:
+        - name: Giant Music
 stills:
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1764602676/frame_89460_pxo48x.jpg
   - https://res.cloudinary.com/dyewnjw4e/image/upload/v1764602676/frame_89481_a13svo.jpg
