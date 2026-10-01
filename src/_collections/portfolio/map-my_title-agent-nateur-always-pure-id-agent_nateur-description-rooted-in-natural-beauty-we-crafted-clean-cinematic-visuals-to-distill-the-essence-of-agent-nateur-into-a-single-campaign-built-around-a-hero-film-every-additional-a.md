@@ -51,5 +51,13 @@ credits:
       role: BTS
       names:
         - name: "Cameron Tavakoly "
-stills: https://res.cloudinary.com/dyewnjw4e/image/upload/v1790880472/Hero_Still_9_5.1.1_uxsxnn.jpg
+stills:
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1790880472/Hero_Still_3_1.46.1_bx9lto.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1790880469/Hero_Still_8_1.95.1_wllqqy.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1790880469/Hero_Still_6_1.61.1_k2keox.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1790880467/Hero_Still_4_1.50.1_shq52b.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1790880467/Hero_Still_7_1.65.1_mbu1ui.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1790880465/Hero_Still_5_1.54.1_vb2gsp.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1790880463/Hero_Still_1_1.44.1_hwb6ds.jpg
+  - https://res.cloudinary.com/dyewnjw4e/image/upload/v1790880460/Hero_Still_2_1.45.1_x1bheq.jpg
 ---
