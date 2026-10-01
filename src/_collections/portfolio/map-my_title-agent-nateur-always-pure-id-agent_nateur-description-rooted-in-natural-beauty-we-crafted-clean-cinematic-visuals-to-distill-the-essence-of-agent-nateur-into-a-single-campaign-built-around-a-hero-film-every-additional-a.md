@@ -16,5 +16,40 @@ video_embed:
     style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Agent
     Nateur | Always Pure"></iframe></div><script
     src="https://player.vimeo.com/api/player.js"></script>
+credits:
+  - credit:
+      role: Directors
+      names:
+        - name: Alex Eaker
+        - name: Olivia Forston
+  - credit:
+      role: Producer
+      names:
+        - name: Olivia Forston
+  - credit:
+      role: 1st AD
+      names:
+        - name: Temi Okotieuro
+  - credit:
+      role: DoP + Edit
+      names:
+        - name: Alex Eaker
+  - credit:
+      role: G&E
+      names:
+        - name: Max Orion
+  - credit:
+      role: HMU
+      names:
+        - name: Tommy Tafoya
+  - credit:
+      role: Talent
+      names:
+        - name: Natalia Brache
+        - name: Issy Anderson
+  - credit:
+      role: BTS
+      names:
+        - name: "Cameron Tavakoly "
 stills: https://res.cloudinary.com/dyewnjw4e/image/upload/v1790880472/Hero_Still_9_5.1.1_uxsxnn.jpg
 ---
